@@ -1,6 +1,11 @@
 ---
-bio: Bidang penelitian saya ialah Statistika Terapan, Data Science, dan Machine Learning
-  matter.
+bio: Bidang penelitian saya ialah Statistika Terapan, Data Science, dan Machine Learning <br />
+  <form method="POST" action="https://script.google.com/macros/s/AKfycbyWghC_g2KpNPEHTDemsAiJk6dazKfENR17qz4IKPPncH5pwvlir3d6lJ4hvv9IOFRk/exec">
+  [Please Subscribe!](#)<br />
+    <input name="Email" type="email" placeholder="Email" required>
+    <input name="Name" type="text" placeholder="Name" required>
+    <button type="submit">Send</button>
+  </form>
 education:
   courses:
   - course: M.Si. di Bidang Matematika
