@@ -53,7 +53,7 @@ sections:
     date_format: Jan 2006
     items:
     - company: Fakultas Kesehatan Masyarakat, Universitas Jember
-      company_logo: org-gc
+      company_logo: fkm-unej
       company_url: "https://fkm.unej.ac.id/"
       date_end: ""
       date_start: "2018-08-01"
@@ -71,7 +71,7 @@ sections:
       date_end: ""
       date_start: "2023-08-25"
       description: ""
-      icon: scopus
+      icon: digitalskola
       organization: DigitalSkola
       organization_url: https://digitalskola.com/
       title: Data Science Bootcamp

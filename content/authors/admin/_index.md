@@ -6,6 +6,7 @@ education:
   - course: M.Si. di Bidang Matematika
     institution: Universitas Jember
     year: 2017
+    icon: unej
   - course: S.Si. di Bidang Matematika
     institution: Universitas Jember
     year: 2015
