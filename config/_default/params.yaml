@@ -18,10 +18,10 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Belajar Statistik, Data Science, Machine Learning dengan menggunakan Bahasa R juga Python'
+    description: 'Berbagi tentang Statistik, Data Science, Machine Learning yang disajikan dengan sederhana menggunakan Bahasa R juga Python'
     twitter: 'GetResearchDev'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-X67PWEG68L'
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
