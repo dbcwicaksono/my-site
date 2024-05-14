@@ -833,7 +833,7 @@
   <div>
     
 
-  <span class="author-highlighted">
+  <span >
       Dimas BC Wicaksono</span>
   </div>
   
@@ -854,7 +854,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 min read
+    4 min read
   </span>
   
 
@@ -948,6 +948,15 @@
 <img src="https://thecompletemedic.com/images/core/research-diagnostic-table_original.png" />
 <p class="caption" style="text-align: center"><span id="fig:tab-diagnstk"></span>Gambar 1: Tabel Diagnostik</p>
 </div>
+<p><br /><strong>Formula dari Sensitivitas:</strong>
+$$
+Sensitivity = \frac{True Positives (TP)}{True Positives (TP) + False Negatives (FN)}
+$$</p>
+<p><strong>Formula dari Spesifisitas:</strong>
+$$
+Speciticity = \frac{True Negatives (TN)}{False Positives (TP) + True Negatives (FN)}
+$$
+<br /></p>
 <h2 id="kegunaan-dan-batasan">Kegunaan dan Batasan</h2>
 <h3 id="kegunaan">Kegunaan</h3>
 <p><em>Ability to <strong>ruling out</strong> a disease</em><br />
@@ -962,6 +971,35 @@ Sedangkan alat skrining yang mendapatkan hasil spesifisitas tinggi menunjukkan b
     Sensitivitas dan Spesifisitas merupakan salah satu uji validitas dalam kasus Uji Diagnostik. Kegunaannya dalam mengukur ketepatan alat ukur (atau alat skrinig) menunjukkan bahwa Sensitivitas dan Spesifisitas dapat menunjukkan tingkat keakuratan dalam pengukuran.
   </div>
 </div>
+<h2 id="sensitivitas-dan-spesifisitas-dengan-r">Sensitivitas dan Spesifisitas dengan R</h2>
+<p>Untuk mendapatkan nilai sensitifitas dan spesifisitas di Program R, kita perlu menggunakan fungsi yang terdapat pada paket <code>caret</code>.</p>
+<p>Lakukan instalasi paket <code>caret</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">install.packages</span><span class="p">(</span><span class="s">&#34;caret&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><p>Setelah itu aktifkan paket <code>caret</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">caret</span><span class="p">)</span>
+</span></span></code></pre></div><p>Kemudian kita siapkan data yang akan digunakan untuk perhitungan. Kita akan menggunakan data contoh yaitu <code>data_sample_ss.csv</code>. Import data ke Program R:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">mydata</span> <span class="o">=</span> <span class="nf">read.csv</span><span class="p">(</span><span class="s">&#34;data_sample_ss.csv&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><div class="alert alert-note">
+  <div>
+    Pastikan bahwa file data telah berada pada direktori tempat anda bekerja dengan R atau R Studio. Jika anda bekerja pada <code>RStudio Project</code> tertentu, maka letakkan data pada <strong>direktori atau folder Project kalian</strong>. Namun jika tidak, maka letakkan file data di folder <strong><em>MyDocuments</em></strong> atau <strong><em>Documents</em></strong>.
+  </div>
+</div>
+<p>Selanjutnya kita lihat tabulasi silang dari data yang sudah kita <code>import</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">attach</span><span class="p">(</span><span class="n">mydata</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">tabulasi_silang</span> <span class="o">=</span> <span class="nf">table</span><span class="p">(</span><span class="n">skrining</span><span class="p">,</span> <span class="n">gold.std</span><span class="p">)</span>
+</span></span></code></pre></div><p>Gunakan fungsi <code>sensitivity</code> Untuk mendapatkan Nilai Sensitivitas:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">sensitivity</span><span class="p">(</span><span class="n">tabulasi_silang</span><span class="p">)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">## [1] 0.4098361
+</span></span></code></pre></div><p>Sedangkan untuk Nilai Spesifisitas menggunakan fungsi <code>specificity</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">specificity</span><span class="p">(</span><span class="n">tabulasi_silang</span><span class="p">)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">## [1] 0.6690647
+</span></span></code></pre></div><div class="alert alert-note">
+  <div>
+    Apabila kalian ingin mendapatkan hasil dalam bentuk persentase, maka cukup menambahkan perkalian dengan 100 setelah fungsi. Contoh: <code>sensitivity(tabulasi_silang) * 100</code>.
+  </div>
+</div>
+<h2 id="sensitivitas-dan-spesifisitas-dengan-spss">Sensitivitas dan Spesifisitas dengan SPSS</h2>
+<p>Saat ini SPSS tidak melakukan perhitungan sensitivitas dan spesifisitas. Namun kalian dapat melakukan perhitungan secara manual setelah mendapatkan hasil tabulasi silang dengan menggunakan menu <strong><em>Analyze -&gt; Descriptives -&gt; Crosstabs</em></strong>. Lalu lakukan perhitungan sensitivitas dan spesifisitas dari hasil tabulasi silang tersebut.</p>
 <h2 id="license">License</h2>
 <p>Copyright 2023-present <a href="https://dwicaksono.netlify.app/" target="_blank" rel="noopener">Dimas BC Wicaksono</a>.</p>
 <p>Released under the <a href="https://github.com/HugoBlox/hugo-blox-builder/blob/master/LICENSE.md" target="_blank" rel="noopener">MIT</a> license.</p>
@@ -1113,130 +1151,6 @@ Sedangkan alat skrining yang mendapatkan hasil spesifisitas tinggi menunjukkan b
     
 
 
-
-  
-  
-  
-    
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-      
-      <a href="http://localhost:4321/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu3467f630537800ab80cc85041c0f0d13_1218130_270x270_fill_lanczos_center_3.png" alt="Dimas BC Wicaksono"></a>
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="http://localhost:4321/">Dimas BC Wicaksono</a></h5>
-      <h6 class="card-subtitle">Dosen Biostatistika</h6>
-      <p class="card-text">Bidang penelitian saya ialah Statistika Terapan, Data Science, dan Machine Learning <br /> <form method="POST" action="https://script.google.com/macros/s/AKfycbyWghC_g2KpNPEHTDemsAiJk6dazKfENR17qz4IKPPncH5pwvlir3d6lJ4hvv9IOFRk/exec"> <a href="#">Please Subscribe!</a><br /> <input name="Email" type="email" placeholder="Email" required> <input name="Name" type="text" placeholder="Name" required> <button type="submit">Send</button> </form></p>
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=wicaksono@unej.ac.id&amp;bcc=199105282023211021@mail.unej.ac.ids" target="_blank" rel="noopener">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.com/citations?user=FbWKAcoAAAAJ&amp;hl=en" target="_blank" rel="noopener">
-        <i class="fas fa-graduation-cap"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/dbcwicaksono" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/uploads/resume.pdf" >
-        <i class="ai ai-cv"></i>
-      </a>
-    </li>
-  
-</ul>
-
-    </div>
-  </div>
 
 
   

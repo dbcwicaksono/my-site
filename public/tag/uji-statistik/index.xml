@@ -35,6 +35,14 @@
 &lt;img src=&#34;https://thecompletemedic.com/images/core/research-diagnostic-table_original.png&#34; /&gt;
 &lt;p class=&#34;caption&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:tab-diagnstk&#34;&gt;&lt;/span&gt;Gambar 1: Tabel Diagnostik&lt;/p&gt;
 &lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Formula dari Sensitivitas:&lt;/strong&gt;
+$$
+Sensitivity = \frac{True Positives (TP)}{True Positives (TP) + False Negatives (FN)}
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Formula dari Spesifisitas:&lt;/strong&gt;
+$$
+Speciticity = \frac{True Negatives (TN)}{False Positives (TP) + True Negatives (FN)}
+$$&lt;/p&gt;
 &lt;h2 id=&#34;kegunaan-dan-batasan&#34;&gt;Kegunaan dan Batasan&lt;/h2&gt;
 &lt;h3 id=&#34;kegunaan&#34;&gt;Kegunaan&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Ability to &lt;strong&gt;ruling out&lt;/strong&gt; a disease&lt;/em&gt;&lt;br /&gt;
@@ -44,6 +52,13 @@ Sedangkan alat skrining yang mendapatkan hasil spesifisitas tinggi menunjukkan b
 &lt;h3 id=&#34;batasan&#34;&gt;Batasan&lt;/h3&gt;
 &lt;p&gt;Keterbatasan utama baik itu sensitivitas maupun sensitifitas adalah ketidakmampuannya dalam membantu nakes untuk mengukur besar peluang (probabilitas) bahwa pasien benar-benar terpapar jika hasil skrining menunjukkan bahwa pasien terdeteksi terpapar.&lt;/p&gt;
 &lt;p&gt;Ini karena sensitivitas dan spesifisitas ditentukan berdasarkan apakah seseorang memiliki penyakit atau tidak. Namun, saat Anda berinteraksi dengan pasien, mereka akan menunjukkan serangkaian gejala, bukan diagnosis, sehingga sulit untuk langsung mengetahui apakah mereka menderita penyakit atau tidak. Oleh karena itu, kita tidak bisa langsung menerapkan parameter ini pada pasien.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Sensitivitas dan Spesifisitas merupakan salah satu uji validitas dalam kasus Uji Diagnostik. Kegunaannya dalam mengukur ketepatan alat ukur (atau alat skrinig) menunjukkan bahwa Sensitivitas dan Spesifisitas dapat menunjukkan tingkat keakuratan dalam pengukuran.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;sensitivitas-dan-spesifisitas-dengan-r&#34;&gt;Sensitivitas dan Spesifisitas dengan R&lt;/h2&gt;
+&lt;h2 id=&#34;sensitivitas-dan-spesifisitas-dengan-spss&#34;&gt;Sensitivitas dan Spesifisitas dengan SPSS&lt;/h2&gt;
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
 &lt;p&gt;Copyright 2023-present &lt;a href=&#34;https://dwicaksono.netlify.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dimas BC Wicaksono&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;

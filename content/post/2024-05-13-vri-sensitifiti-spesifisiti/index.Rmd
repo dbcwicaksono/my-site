@@ -21,7 +21,12 @@ tags:
 title: Sensitivitas dan Spesifisitas
 ---
 
+```{r, include=FALSE}
+library(caret)
+library(readr)
 
+mydata = read.csv("data_sample_ss.csv")
+```
 
 ## Alat Skrining
 
@@ -94,22 +99,19 @@ Untuk mendapatkan nilai sensitifitas dan spesifisitas di Program R, kita perlu m
 
 Lakukan instalasi paket `caret`:
 
-
-```r
+```{r, eval=FALSE}
 install.packages("caret")
 ```
 
 Setelah itu aktifkan paket `caret`:
 
-
-```r
+```{r, eval=FALSE}
 library(caret)
 ```
 
 Kemudian kita siapkan data yang akan digunakan untuk perhitungan. Kita akan menggunakan data contoh yaitu `data_sample_ss.csv`. Import data ke Program R:
 
-
-```r
+```{r, eval=FALSE}
 mydata = read.csv("data_sample_ss.csv")
 ```
 
@@ -119,32 +121,21 @@ Pastikan bahwa file data telah berada pada direktori tempat anda bekerja dengan 
 
 Selanjutnya kita lihat tabulasi silang dari data yang sudah kita `import`:
 
-
-```r
+```{r}
 attach(mydata)
 tabulasi_silang = table(skrining, gold.std)
 ```
 
 Gunakan fungsi `sensitivity` Untuk mendapatkan Nilai Sensitivitas:
 
-
-```r
+```{r}
 sensitivity(tabulasi_silang)
-```
-
-```
-## [1] 0.4098361
 ```
 
 Sedangkan untuk Nilai Spesifisitas menggunakan fungsi `specificity`:
 
-
-```r
+```{r}
 specificity(tabulasi_silang)
-```
-
-```
-## [1] 0.6690647
 ```
 
 {{% callout note %}}
