@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kesehatan Nasional | Dwicaksono</title>
+    <link>http://localhost:4321/tag/kesehatan-nasional/</link>
+      <atom:link href="http://localhost:4321/tag/kesehatan-nasional/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kesehatan Nasional</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:4321/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Kesehatan Nasional</title>
+      <link>http://localhost:4321/tag/kesehatan-nasional/</link>
+    </image>
+    
+    <item>
+      <title>Sistem Informasi Kesehatan Nasional</title>
+      <link>http://localhost:4321/post/2024-05-13-dh-siknas/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/post/2024-05-13-dh-siknas/</guid>
+      <description>&lt;h2 id=&#34;pendahuluan&#34;&gt;Pendahuluan&lt;/h2&gt;
+&lt;p&gt;Dalam era globalisasi dan kemajuan teknologi, pembangunan dunia meningkat dengan pesat. Dimana saat ini kita telah memasuki arah pengembangan digitalisasi. Seperti yang anda perhatikan bahwa digitalisasi membuat berbagai pekerjaan semakin mudah, sehingga produktivitas meningkat.&lt;/p&gt;
+&lt;p&gt;Digitalisasi juga berperan penting dalam dunia kesehatan. Misalnya, pada tahun-tahun kita menggunakan dokumen rekam medis dalam bentuk cetak yang disusun rapih pada lemari rekam medis. Adanya rekam medis ini dapat membantu nakes untuk mengetahui riwayat sakit dari pasien, agar dapat melakukan diagnosis yang lebih tepat. Namun dengan meningkatnya jumlah penduduk, tentu jumlah dokumen rekam medis juga akan semakin menumpuk. Belum lagi dokumen cetak mudah untuk hilang dan rusak, entah karena rayap, air, atau &lt;em&gt;human error&lt;/em&gt;. Selain itu rekam medis pasien yang tebal pun dapat menyulitkan nakes dalam menyimpulkan diagnosa penyakit pada pasien.&lt;/p&gt;
+&lt;p&gt;Bayangkan apabila ada sebuah asisten yang mampu memudahkan nakes dalam melakukan manajemen data rekam medis. Pencarian data pasien lebih mudah, memberikan peringatan pada kesalahan &lt;em&gt;input&lt;/em&gt; kode penyakit, bahkan sampai mampu memberikan hasil &lt;strong&gt;pra-diagnosis&lt;/strong&gt; kepada dokter berdasarkan riwayat penyakit pasien. Tentu asisten tersebut akan memberikan kontribusi yang luar biasa! Lalu banyangkan jika ada robot yang mampu melakukan pembedahan kepada pasien dengan tingkat presisi yang sangat detail. &lt;em&gt;Apakah suatu waktu nanti kita tidak memerlukan tenaga kesehatan lagi?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(bagian ini dapat di lewati)&lt;/em&gt; Mari kita lihat video berikut:&lt;br /&gt;&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/gFA4O8I3fg8?si=X01H245F1jGLyjmn&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Bagaimana? Sekarang jika kita masih setengah-setengah, maka robot akan menggantikan kita?&lt;/p&gt;
+&lt;h2 id=&#34;digitalisasi-kesehatan&#34;&gt;Digitalisasi Kesehatan&lt;/h2&gt;
+&lt;p&gt;Saat ini Digitalisasi kesehatan berperan dalam mempermudah pasien dan tenaga kesehatan. &lt;strong&gt;Pada pasien&lt;/strong&gt;, saat ini pasien mampu melakukan pendaftaran secara online hingga melihat hasil diagnosa dan laporan laboratorium tanpa harus datang ke Fasilitas Kesehatan (Faskes). Tentu ini akan sangat mempermudah bagi pasien yang &lt;em&gt;rawan&lt;/em&gt; seperti anak-anak dan lansia. &lt;strong&gt;Sedangkan pada Faskes dan nakes&lt;/strong&gt;, digitalisasi dapat mempermudah dalam mendapatkan data riwayat kesehatan pasien, pasien tidak perlu lagi membawa data rekam medis ke dokter dan resep obat ke farmasi, efisiensi penggunaan ruangan, dan masih banyak lagi. Selain itu digitalisasi juga memberikan kesempata untuk berkonsultasi secara daring, hal ini lebih baik daripada pasien tidak datang ke Faskes.&lt;/p&gt;
+&lt;p&gt;Pemerintahan Indonesia telah berkomitmen dengan digitalisasi melalui program &lt;a href=&#34;https://data.go.id/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Satu Data Indonesia&lt;/a&gt;. Satu Data Indonesia (SDI) merupakan kebijakan tata kelola data pemerintah yang bertujuan untuk menciptakan data berkualitas, mudah diakses, dan dapat dibagipakaikan antar Instansi Pusat serta Daerah. Kebijakan ini tertuang dalam Peraturan Presiden no. 39 tahun 2019 tentang Satu Data Indonesia. Melalui SDI, seluruh data pemerintah dan data instansi lain yang terkait dapat bermuara di &lt;a href=&#34;https://data.go.id/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Portal Satu Data Indonesia&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Program Satu Data Indonesia dapat tercapai melalui integrasi antar kementerian, termasuk kementerian kesehatan. Sampai saat ini terdapat 3 tantangan utama kementerian kesehatan dalam digitalisasi data kesehatan:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Jutaan data dan ratusan aplikasi&lt;/strong&gt;&lt;br/&gt;
+Dibutuhkan platform data terintegrasi untuk bisa mendukung internal Fasyankes dalam memaksimalkan pelayanan rumah sakit, terutama untuk memprediksi penyakit pasien.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Data terfragmentasi&lt;/strong&gt;&lt;br/&gt;
+Berbagai macam sistem informasi yang berakibat pada data yang tidak terstandardisasi.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Keterbatasan regulasi&lt;/strong&gt;&lt;br/&gt;
+Sektor kesehatan Indonesia mengalami keterbatasan untuk proteksi data, standardisasi data, serta hak dan privasi pasien.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;sistem-informasi-kesehatan-nasional&#34;&gt;Sistem Informasi Kesehatan Nasional&lt;/h2&gt;
+&lt;p&gt;Berbasarkan UU Kesehatan 2023, &lt;strong&gt;Sistem Informasi Kesehatan&lt;/strong&gt; adalah sistem yang mengintegrasikan berbagai tahapan pemrosesan, pelaporan, dan penggunaan informasi yang diperlukan untuk meningkatkan efektivitas dan efisiensi penyelenggaraan Kesehatan serta mengarahkan tindakan atau keputusan yang berguna dalam mendukung pembangunan.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sistem Informasi Kesehatan Nasional&lt;/strong&gt; (SIKNAS), Sistem Informasi Kesehatan yang dikelola oleh kementerian yang menyelenggarakan urusan pemerintahan di bidang kesehatan yang mengintegrasikan dan menstandarisasi seluruh Sistem Informasi Kesehatan dalam mendukung pembangunan Kesehatan.&lt;/p&gt;
+&lt;p&gt;SIK dibuat guna melakukan penyelenggaraan Upaya Kesehatan yang efektif dan efisien. SIK diselenggarakan oleh &lt;a href=&#34;#&#34;&gt;Pemerintah Pusat&lt;/a&gt;, &lt;a href=&#34;#&#34;&gt;Pemerintah Daerah&lt;/a&gt;, &lt;a href=&#34;#&#34;&gt;Fasilitas Pelayanan Kesehatan&lt;/a&gt;, dan &lt;a href=&#34;#&#34;&gt;masyarakat (baik perseorangan maupun kelompok)&lt;/a&gt;. Penyelenggaraan SIK harus terintegrasi dengan SIKNAS.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://hugoblox.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://docs.hugoblox.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithWowchemy&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://docs.hugoblox.com/hugo-tutorials/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Tutorial&lt;/a&gt; and &lt;a href=&#34;https://hugoblox.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpshugobloxcomsponsor&#34;&gt;&lt;a href=&#34;https://hugoblox.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://hugoblox.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/GetRD/academic-file-converter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://hugoblox.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://docs.hugoblox.com/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://docs.hugoblox.com/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://docs.hugoblox.com/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://docs.hugoblox.com/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.hugoblox.com/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

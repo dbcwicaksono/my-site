@@ -23,7 +23,6 @@
 &lt;h2 id=&#34;program-r&#34;&gt;Program R&lt;/h2&gt;
 &lt;p&gt;Program R adalah sebuah bahasa pemrograman ciptaan &lt;strong&gt;Robert Gentelman&lt;/strong&gt; dan &lt;strong&gt;Ros Ihaka&lt;/strong&gt; yang &amp;ldquo;awalnya&amp;rdquo; hanya untuk kebutuhan praktikum statistika. Namun dalam perkembangannya, R menjadi sangat &lt;em&gt;powerfull&lt;/em&gt; tak hanya dalam analisis statistik namun juga dalam penyajian hasil analisisnya. Semua itu berkat dukungan para pakar dari seluruh dunia yang menyediakan berbagai &lt;code&gt;packages&lt;/code&gt; untuk mendukung analisis data di R.&lt;/p&gt;
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
     </item>

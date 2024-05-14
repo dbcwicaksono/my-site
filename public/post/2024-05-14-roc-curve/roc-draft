@@ -1,0 +1,34 @@
+## Kurva ROC
+
+Seperti yang dibahas pada pembahasan [Sensitivitas dan Spesivisitas](/post/2024-05-13-vri-sensitifiti-spesifisiti/) sebelumnya, bahwa hasil dari pengukuran sensitivitas dan spesifisitas masih memiliki keterbatasan dalam hal mengukur peluang terpapar maupun tidak. 
+
+
+However, in practice, diagnostic tests with a continuous index are very common. In such cases, Receiver Operator Characteristic (ROC) is used to evaluate the accuracy of the test in discriminating the disease. By dichotomizing the continuous test score, sensitivity and specificity can be calculated at each cutpoint. An ROC curve is constructed by connecting all pairs of (1-specificity, sensitivity) at all the possible cutpoints of the continuous test. An ROC curve is a way of graphically displaying true positives versus false-positives across a range of cut-offs,[14] and provides a picture of how accurately the test can discriminate the disease. Different cut points result in different sensitivities and specificities. For a given test, there is a tradeoff between the sensitivity and specificity. For example, if a higher test score indicates greater likelihood of being diseased, the lower cutoff will yield higher sensitivity but lower specificity, in which case the test can correctly classify most of the diseased subjects as diseased, but also gives a high chance of misclassifying the non-diseased subjects as diseased, and vice versa for a higher cutoff. An ROC curve provides us with a full picture of how the test discriminates between diseased and non-diseased, with the portion closer to the top left corner being better able to discriminate. The diagonal line shows no ability of discrimination. 
+
+## Area Under Curve
+
+The ROC curve is an excellent way to depict the ability of the test in discriminating disease at each cutpoint, but in practice, it is also very important to have a single index to summarize the overall performance of the test. The area under the ROC curve (AUC) is an index that evaluates the overall ability. The AUC measures the ability of the test to correctly classify those with and without the disease. 
+
+
+
+You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+fit <- lm(dist ~ speed, data = cars)
+fit
+```
+
+# Including Plots
+
+You can also embed plots. See Figure \@ref(fig:pie) for example:
+
+```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
+par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
+  col = c('#0292D8', '#F7EA39', '#C4B632'),
+  init.angle = -50, border = NA
+)
+```

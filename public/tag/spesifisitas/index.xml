@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spesifisitas | Dwicaksono</title>
+    <link>http://localhost:4321/tag/spesifisitas/</link>
+      <atom:link href="http://localhost:4321/tag/spesifisitas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Spesifisitas</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 May 2024 21:13:14 -0500</lastBuildDate>
+    <image>
+      <url>http://localhost:4321/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Spesifisitas</title>
+      <link>http://localhost:4321/tag/spesifisitas/</link>
+    </image>
+    
+    <item>
+      <title>Receiver Operating Characteristic Curve (ROC Curve)</title>
+      <link>http://localhost:4321/post/2024-05-14-roc-curve/</link>
+      <pubDate>Tue, 14 May 2024 21:13:14 -0500</pubDate>
+      <guid>http://localhost:4321/post/2024-05-14-roc-curve/</guid>
+      <description>&lt;h1 id=&#34;r-markdown&#34;&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;summary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cars&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##      speed           dist       &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##  Min.   : 4.0   Min.   :  2.00  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##  1st Qu.:12.0   1st Qu.: 26.00  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##  Median :15.0   Median : 36.00  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##  Mean   :15.4   Mean   : 42.98  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##  3rd Qu.:19.0   3rd Qu.: 56.00  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##  Max.   :25.0   Max.   :120.00&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fit&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;lm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dist&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;~&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;speed&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cars&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## Call:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## lm(formula = dist ~ speed, data = cars)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## Coefficients:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## (Intercept)        speed  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##     -17.579        3.932&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;including-plots&#34;&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;par&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mar&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;pie&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;280&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;60&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;Sky&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;Sunny side of pyramid&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;Shady side of pyramid&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;col&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;#0292D8&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;#F7EA39&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;#C4B632&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;init.angle&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;-50&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;border&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;NA&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;http://localhost:4321/post/2024-05-14-roc-curve/index_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;Figure 1: A fancy pie chart.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sensitivitas dan Spesifisitas</title>
+      <link>http://localhost:4321/post/2024-05-13-vri-sensitifiti-spesifisiti/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/post/2024-05-13-vri-sensitifiti-spesifisiti/</guid>
+      <description>&lt;h2 id=&#34;alat-skrining&#34;&gt;Alat Skrining&lt;/h2&gt;
+&lt;p&gt;Andaikan ditemukan sebuah penyakit baru yang sangat mematikan. Agar dapat mengurangi dampak dari penyakit tersebut, Pemerintah Negara X menggelontorkan anggaran untuk riset terhadap alat deteksi dini / &lt;em&gt;skrining&lt;/em&gt; . Dari ratusan peneliti, terpilihlah 3 peneliti dengan inovasi Alat A, Alat B, dan Alat C, sebagai alat &lt;em&gt;skrining&lt;/em&gt;. Setelah dilakukan percobaan, didapatkan data sebagai berikut:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Menurut kalian, alat mana yang seharusnya dipilih oleh Pemerintah Negara X sebagai alat skrining penyakit baru tersebut? Berikan alasannya!&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Instrumen deteksi dini memberikan hasil yang menunjukkan &lt;strong&gt;&lt;em&gt;kemungkinan adanya paparan&lt;/em&gt;&lt;/strong&gt;, karena umumnya membutuhkan pengujian lebih lanjut di laboratorium untuk mendapatkan hasil yang lebih akurat. Rentang waktu antara kemungkinan deteksi awal melalui skrining dan deteksi setelah munculnya gejala disebut &lt;em&gt;Detectable Pre-Clinical Phase&lt;/em&gt; atau DPCP. Jika suatu penyakit dapat teridentifikasi selama fase DPCP, maka pengobatan dapat dimulai lebih awal dan hasilnya dapat lebih positif.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;pendahuluan&#34;&gt;Pendahuluan&lt;/h2&gt;
+&lt;p&gt;Dalam menentukan alat yang baik dalam melakukan sebuah pengukuran adalah dengan melihat tingkat akurasi alat tersebut. Pada &lt;em&gt;thermogun&lt;/em&gt;, kebaikan dalam mengukur suhu tubuh adalah ketika ia mampu memberikan hasil yang cukup dekat &lt;em&gt;(akurat)&lt;/em&gt; dengan hasil pengukuran standar. Pengukuran standar ini dinamakan dengan &lt;strong&gt;Gold Standard&lt;/strong&gt;. Jika hasil pengukuran dari &lt;em&gt;thermogun&lt;/em&gt; memiliki rata-rata selisih yang kecil (semisal 0.1$^\circ$C), maka dapat dikatakan bahwa &lt;em&gt;thermogun&lt;/em&gt; memiliki hasil pengukuran yang akurat. &lt;strong&gt;Namun bagaimana jika hasil pengukurannya memiliki deviasi standar yang tinggi?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Namun tidak semua alat memiliki proses evaluasi alat seperti &lt;em&gt;thermogun&lt;/em&gt;, sebagian alat hanya memberikan 2 hasil saja yaitu ya atau tidak; terpapar atau tidak; diabetes atau tidak; dsb. Pengujian pada alat-alat tersebut dapat dilakukan dengan menggunakan ukuran &lt;a href=&#34;#&#34;&gt;Sensitivitas&lt;/a&gt; dan &lt;a href=&#34;#&#34;&gt;Spesifisitas&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;sensitivitas-dan-spesifisitas&#34;&gt;Sensitivitas dan Spesifisitas&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;#&#34;&gt;Sensitivitas&lt;/a&gt; adalah nilai proporsi antara orang yang terdeteksi sakit (&lt;a href=&#34;#&#34;&gt;&lt;strong&gt;&lt;em&gt;true positives&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;) dibandingkan dengan seluruh orang yang benar-benar sakit (&lt;a href=&#34;#&#34;&gt;&lt;strong&gt;&lt;em&gt;true positives&lt;/em&gt;&lt;/strong&gt; + &lt;strong&gt;&lt;em&gt;false negatives&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;). Andaikan kita melakukan pengujian pada Alat A ke 10 orang yang sedang sakit. Jika ternyata hasil skrining menunjukkan bahwa 8 dari 10 orang terdeteksi sakit, maka sensitivitas Alat A adalah 8/10 atau 80%.&lt;/p&gt;
+&lt;p&gt;Sedangkan &lt;a href=&#34;$&#34;&gt;Spesifisitas&lt;/a&gt; adalah proporsi antara orang yang tidak terdeteksi sakit (&lt;a href=&#34;#&#34;&gt;&lt;strong&gt;&lt;em&gt;true negatives&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;) dibandingkan dengan seluruh orang yang benar-benar tidak sakit (&lt;a href=&#34;#&#34;&gt;&lt;strong&gt;&lt;em&gt;false positives&lt;/em&gt;&lt;/strong&gt; + &lt;strong&gt;&lt;em&gt;true negatives&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;). Andaikan kita melakukan skrining dengan Alat B kepada 10 orang yang tidak sakit. Jika hasil skrining menunjukkan bahwa terdapat 9 orang yang tidak sakit, maka hasil spesifisiti adalah 9/10 atau 90%.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://thecompletemedic.com/images/core/research-diagnostic-table_original.png&#34; /&gt;
+&lt;p class=&#34;caption&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:tab-diagnstk&#34;&gt;&lt;/span&gt;Gambar 1: Tabel Diagnostik&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;kegunaan-dan-batasan&#34;&gt;Kegunaan dan Batasan&lt;/h2&gt;
+&lt;h3 id=&#34;kegunaan&#34;&gt;Kegunaan&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Ability to &lt;strong&gt;ruling out&lt;/strong&gt; a disease&lt;/em&gt;&lt;br /&gt;
+Alat skrining dengan hasil sensitivitas yang tinggi menunjukkan bahwa alat skrining semakin baik kemampuannya untuk menyingkirkan kemungkinan penyakit pada individu yang sebenarnya sehat. Andaikan terdapat pasien yang terdeteksi tidak terpapar, maka nakes dapat langsung yakin bahwa pasien tersebut benar-benar tidak terpapar.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ability to &lt;strong&gt;ruling in&lt;/strong&gt; a disease&lt;/em&gt;&lt;br /&gt;
+Sedangkan alat skrining yang mendapatkan hasil spesifisitas tinggi menunjukkan bahwa alat skrining tersebut semakin baik kemampuannya untuk mengonfirmasi keberadaan penyakit pada individu yang sebenarnya menderita penyakit tersebut. Andaikan terdapat pasien yang terdeteksi terpapar, maka nakes dapat langsung yakin bahwa pasien tersebut benar-benar sedang terpapar.&lt;/p&gt;
+&lt;h3 id=&#34;batasan&#34;&gt;Batasan&lt;/h3&gt;
+&lt;p&gt;Keterbatasan utama baik itu sensitivitas maupun sensitifitas adalah ketidakmampuannya dalam membantu nakes untuk mengukur besar peluang (probabilitas) bahwa pasien benar-benar terpapar jika hasil skrining menunjukkan bahwa pasien terdeteksi terpapar.&lt;/p&gt;
+&lt;p&gt;Ini karena sensitivitas dan spesifisitas ditentukan berdasarkan apakah seseorang memiliki penyakit atau tidak. Namun, saat Anda berinteraksi dengan pasien, mereka akan menunjukkan serangkaian gejala, bukan diagnosis, sehingga sulit untuk langsung mengetahui apakah mereka menderita penyakit atau tidak. Oleh karena itu, kita tidak bisa langsung menerapkan parameter ini pada pasien.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2023-present &lt;a href=&#34;https://dwicaksono.netlify.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dimas BC Wicaksono&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
