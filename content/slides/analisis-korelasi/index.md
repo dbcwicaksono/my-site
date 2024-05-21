@@ -89,7 +89,7 @@ Apabila hasil uji menunjukkan nilai [_p-value_ yang kurang dari `\(\alpha\)` ($p
 
 ## Uji Korelasi dengan SPSS {#spss}
 
-[Data Latihan](#)
+[Data Latihan](https://docs.google.com/spreadsheets/d/1cQFIUc7nAqli9rPRkHjHNGL6mXhTLwj1rl_vSH2uunE/edit?usp=sharing)
 
 
 ---
