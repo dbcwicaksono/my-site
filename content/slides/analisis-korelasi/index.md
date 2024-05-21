@@ -53,9 +53,9 @@ title: Analisis Korelasi
 
 ## Jenis Analisis Korelasi {#jenis}
 
-- [Korelasi Pearson Product Moment](#pearson), untuk data yang berskala interval dan rasio.
-- [Korelasi Rank Spearman](#spearman), untuk data yang berskala ordinal.
-- [Korelasi Koefisien Kontigensi](#koefkon), untuk data yang berskala nominal.
+- [Korelasi Pearson Product Moment](#jenis), untuk data yang berskala interval dan rasio.
+- [Korelasi Rank Spearman](#jenis), untuk data yang berskala ordinal.
+- [Korelasi Koefisien Kontigensi](#jenis), untuk data yang berskala nominal.
 
 ---
 

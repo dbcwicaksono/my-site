@@ -74,9 +74,9 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;jenis&#34;&gt;Jenis Analisis Korelasi&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#pearson&#34;&gt;Korelasi Pearson Product Moment&lt;/a&gt;, untuk data yang berskala interval dan rasio.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#spearman&#34;&gt;Korelasi Rank Spearman&lt;/a&gt;, untuk data yang berskala ordinal.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#koefkon&#34;&gt;Korelasi Koefisien Kontigensi&lt;/a&gt;, untuk data yang berskala nominal.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#jenis&#34;&gt;Korelasi Pearson Product Moment&lt;/a&gt;, untuk data yang berskala interval dan rasio.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#jenis&#34;&gt;Korelasi Rank Spearman&lt;/a&gt;, untuk data yang berskala ordinal.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#jenis&#34;&gt;Korelasi Koefisien Kontigensi&lt;/a&gt;, untuk data yang berskala nominal.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;hipotesis-uji-korelasi-hipotesis&#34;&gt;Hipotesis Uji Korelasi {$hipotesis}&lt;/h2&gt;
