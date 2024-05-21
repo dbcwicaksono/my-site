@@ -41,7 +41,8 @@
       <link>http://localhost:4321/post/2024-05-13-vri-sensitifiti-spesifisiti/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/post/2024-05-13-vri-sensitifiti-spesifisiti/</guid>
-      <description>&lt;h2 id=&#34;alat-skrining&#34;&gt;Alat Skrining&lt;/h2&gt;
+      <description>&lt;img src=&#34;https://source.unsplash.com/-table-topped-with-eggs-next-to-a-vase-of-flowers-eIuCJCfRcvI&#34; /&gt;
+&lt;h2 id=&#34;alat-skrining&#34;&gt;Alat Skrining&lt;/h2&gt;
 &lt;p&gt;Andaikan ditemukan sebuah penyakit baru yang sangat mematikan. Agar dapat mengurangi dampak dari penyakit tersebut, Pemerintah Negara X menggelontorkan anggaran untuk riset terhadap alat deteksi dini / &lt;em&gt;skrining&lt;/em&gt; . Dari ratusan peneliti, terpilihlah 3 peneliti dengan inovasi Alat A, Alat B, dan Alat C, sebagai alat &lt;em&gt;skrining&lt;/em&gt;. Setelah dilakukan percobaan, didapatkan data sebagai berikut:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Menurut kalian, alat mana yang seharusnya dipilih oleh Pemerintah Negara X sebagai alat skrining penyakit baru tersebut? Berikan alasannya!&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -59,14 +60,15 @@
 &lt;img src=&#34;https://thecompletemedic.com/images/core/research-diagnostic-table_original.png&#34; /&gt;
 &lt;p class=&#34;caption&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:tab-diagnstk&#34;&gt;&lt;/span&gt;Gambar 1: Tabel Diagnostik&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Formula dari Sensitivitas:&lt;/strong&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;Formula dari Sensitivitas:&lt;/strong&gt;
 $$
 Sensitivity = \frac{True Positives (TP)}{True Positives (TP) + False Negatives (FN)}
 $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Formula dari Spesifisitas:&lt;/strong&gt;
 $$
 Speciticity = \frac{True Negatives (TN)}{False Positives (TP) + True Negatives (FN)}
-$$&lt;/p&gt;
+$$
+&lt;br /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;kegunaan-dan-batasan&#34;&gt;Kegunaan dan Batasan&lt;/h2&gt;
 &lt;h3 id=&#34;kegunaan&#34;&gt;Kegunaan&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Ability to &lt;strong&gt;ruling out&lt;/strong&gt; a disease&lt;/em&gt;&lt;br /&gt;
@@ -82,7 +84,34 @@ Sedangkan alat skrining yang mendapatkan hasil spesifisitas tinggi menunjukkan b
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;sensitivitas-dan-spesifisitas-dengan-r&#34;&gt;Sensitivitas dan Spesifisitas dengan R&lt;/h2&gt;
+&lt;p&gt;Untuk mendapatkan nilai sensitifitas dan spesifisitas di Program R, kita perlu menggunakan fungsi yang terdapat pada paket &lt;code&gt;caret&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Lakukan instalasi paket &lt;code&gt;caret&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;install.packages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;caret&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Setelah itu aktifkan paket &lt;code&gt;caret&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;library&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;caret&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Kemudian kita siapkan data yang akan digunakan untuk perhitungan. Kita akan menggunakan data contoh yaitu &lt;code&gt;data_sample_ss.csv&lt;/code&gt;. Import data ke Program R:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;mydata&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;read.csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;data_sample_ss.csv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Pastikan bahwa file data telah berada pada direktori tempat anda bekerja dengan R atau R Studio. Jika anda bekerja pada &lt;code&gt;RStudio Project&lt;/code&gt; tertentu, maka letakkan data pada &lt;strong&gt;direktori atau folder Project kalian&lt;/strong&gt;. Namun jika tidak, maka letakkan file data di folder &lt;strong&gt;&lt;em&gt;MyDocuments&lt;/em&gt;&lt;/strong&gt; atau &lt;strong&gt;&lt;em&gt;Documents&lt;/em&gt;&lt;/strong&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Selanjutnya kita lihat tabulasi silang dari data yang sudah kita &lt;code&gt;import&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;attach&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mydata&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;tabulasi_silang&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;table&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;skrining&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;gold.std&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Gunakan fungsi &lt;code&gt;sensitivity&lt;/code&gt; Untuk mendapatkan Nilai Sensitivitas:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;sensitivity&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tabulasi_silang&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## [1] 0.4098361
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Sedangkan untuk Nilai Spesifisitas menggunakan fungsi &lt;code&gt;specificity&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;specificity&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tabulasi_silang&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## [1] 0.6690647
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Apabila kalian ingin mendapatkan hasil dalam bentuk persentase, maka cukup menambahkan perkalian dengan 100 setelah fungsi. Contoh: &lt;code&gt;sensitivity(tabulasi_silang) * 100&lt;/code&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;sensitivitas-dan-spesifisitas-dengan-spss&#34;&gt;Sensitivitas dan Spesifisitas dengan SPSS&lt;/h2&gt;
+&lt;p&gt;Saat ini SPSS tidak melakukan perhitungan sensitivitas dan spesifisitas. Namun kalian dapat melakukan perhitungan secara manual setelah mendapatkan hasil tabulasi silang dengan menggunakan menu &lt;strong&gt;&lt;em&gt;Analyze -&amp;gt; Descriptives -&amp;gt; Crosstabs&lt;/em&gt;&lt;/strong&gt;. Lalu lakukan perhitungan sensitivitas dan spesifisitas dari hasil tabulasi silang tersebut.&lt;/p&gt;
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
 &lt;p&gt;Copyright 2023-present &lt;a href=&#34;https://dwicaksono.netlify.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dimas BC Wicaksono&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
@@ -467,7 +496,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-534926871&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-123687594&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -477,7 +506,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-534926871&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-123687594&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

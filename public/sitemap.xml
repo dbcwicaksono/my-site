@@ -10,8 +10,20 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://localhost:4321/slides/analisis-korelasi/</loc>
+    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:4321/categories/</loc>
-    <lastmod>2024-05-14T21:13:14-05:00</lastmod>
+    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/slides/</loc>
+    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/category/statistik/</loc>
+    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:4321/tag/diagnostik/</loc>
@@ -39,10 +51,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:4321/tag/spesifisitas/</loc>
-    <lastmod>2024-05-14T21:13:14-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:4321/category/statistik/</loc>
     <lastmod>2024-05-14T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -232,10 +240,6 @@
   </url><url>
     <loc>http://localhost:4321/tag/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:4321/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:4321/slides/example/</loc>

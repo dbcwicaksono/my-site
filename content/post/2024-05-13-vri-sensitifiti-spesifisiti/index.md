@@ -3,7 +3,7 @@ authors:
 - Dimas BC Wicaksono
 categories: ["Validitas dan Reliabilitas Instrument", "Kuliah", "Statistik", "R"]
 date: "2024-05-13T00:00:00Z"
-featured: false
+featured: "https://source.unsplash.com/-table-topped-with-eggs-next-to-a-vase-of-flowers-eIuCJCfRcvI"
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
   focal_point: ""
@@ -22,6 +22,8 @@ title: Sensitivitas dan Spesifisitas
 ---
 
 
+
+<img src="https://source.unsplash.com/-table-topped-with-eggs-next-to-a-vase-of-flowers-eIuCJCfRcvI" />
 
 ## Alat Skrining
 

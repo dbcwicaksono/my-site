@@ -6,12 +6,6 @@
       <atom:link href="http://localhost:4321/index.xml" rel="self" type="application/rss+xml" />
     <description>Dwicaksono</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>http://localhost:4321/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Dwicaksono</title>
-      <link>http://localhost:4321/</link>
-    </image>
-    
     <item>
       <title>Example Talk</title>
       <link>http://localhost:4321/talk/example-talk/</link>
@@ -29,6 +23,78 @@
 &lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://docs.hugoblox.com/reference/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Further event details, including &lt;a href=&#34;https://docs.hugoblox.com/reference/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analisis Korelasi</title>
+      <link>http://localhost:4321/slides/analisis-korelasi/</link>
+      <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/slides/analisis-korelasi/</guid>
+      <description>&lt;h1 id=&#34;ankor&#34;&gt;Analisis Korelasi&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;#ankor&#34;&gt;Dasar Biostatistika&lt;/a&gt; | &lt;a href=&#34;#ankor&#34;&gt;Dimas BC Wicaksono&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;konskor&#34;&gt;Konsep Korelasi&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#konskor&#34;&gt;Analisis Korelasi&lt;/a&gt;, metode statistika inferensial untuk mendapatkan derajat hubungan linier antar variabel (&lt;em&gt;bivariable&lt;/em&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#konskor&#34;&gt;Koefisien Korelasi&lt;/a&gt;, adalah ukuran derajat hubungan antar variabel.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#konskor&#34;&gt;Arah Hubungan&lt;/a&gt;, arah hubungan pada koefisien korelasi adalah positif (+) dan negatif (-)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;sifat&#34;&gt;Sifat Koefisien Korelasi&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Nilai koefisien korelasi berkisar antara -1 dan 1&lt;/li&gt;
+&lt;li&gt;Nilai koefisien korelasi positif (+) menunjukkan &lt;a href=&#34;#sifat&#34;&gt;hubungan yang searah&lt;/a&gt;. Artinya, apabila nilai variabel bebas meningkat, maka nilai variabel terikat juga ikut meningkat (begitu pula sebaliknya).&lt;/li&gt;
+&lt;li&gt;Nilai koefisien korelasi negatif (-) menunjukkan &lt;a href=&#34;#sifat&#34;&gt;hubungan yang berlawanan arah&lt;/a&gt;. Artinya, apabila nilai variabel bebas meningkat, maka nilai variabel terikat akan menurun (begitu pula sebaliknya).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;analisis-korelasi-dan-kausalitas&#34;&gt;Analisis Korelasi dan Kausalitas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Dalam KBBI menunjukkan bahwa kata &amp;ldquo;korelasi&amp;rdquo; artinya kejadian sebab akibat (kausalitas).&lt;/li&gt;
+&lt;li&gt;Meski demikian, analisis korelasi dalam statistik tidak menunjukkan hal yang sama.&lt;/li&gt;
+&lt;li&gt;Analisis Korelasi hanya menggambarkan keeratan hubungan seperti yang telah dijelaskan &lt;a href=&#34;#konskor&#34;&gt;sebelumnya&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;jenis&#34;&gt;Jenis Analisis Korelasi&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#pearson&#34;&gt;Korelasi Pearson Product Moment&lt;/a&gt;, untuk data yang berskala interval dan rasio.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#spearman&#34;&gt;Korelasi Rank Spearman&lt;/a&gt;, untuk data yang berskala ordinal.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#koefkon&#34;&gt;Korelasi Koefisien Kontigensi&lt;/a&gt;, untuk data yang berskala nominal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hipotesis-uji-korelasi-hipotesis&#34;&gt;Hipotesis Uji Korelasi {$hipotesis}&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hipotesis:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\(H_0:\)&lt;/code&gt; Tidak ada korelasi antara variabel X dan Y&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(H_1:\)&lt;/code&gt; Terdapat korelasi antara variabel X dan Y&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Tingkat signifikansi -&amp;gt; 0.05 ($\alpha = 0.05$)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Apabila hasil uji menunjukkan nilai &lt;a href=&#34;#hipotesis&#34;&gt;&lt;em&gt;p-value&lt;/em&gt; yang kurang dari &lt;code&gt;\(\alpha\)&lt;/code&gt; ($p-value \le \alpha$)&lt;/a&gt;, keputusan pengujian adalah tolak &lt;code&gt;\(H_0\)&lt;/code&gt;. Artinya terdapat korelasi antara kedua variabel.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;kriteria&#34;&gt;Kriteria Koefisien Korelasi&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Selain hasil uji hipotesis, uji korelasi juga memberikan hasil besar koefisien korelasi.&lt;/li&gt;
+&lt;li&gt;Kriteria korelasi dapat diklasifikasikan berdasarkan besar koefisien korelasinya:
+&lt;ul&gt;
+&lt;li&gt;0.00 - 0.29, derajat hubungan sangat lemah&lt;/li&gt;
+&lt;li&gt;0.30 - 0.49, derajat hubungan lemah&lt;/li&gt;
+&lt;li&gt;0.50 - 0.69, derajat hubungan cukup kuat&lt;/li&gt;
+&lt;li&gt;0.70 - 0.79, derajat hubungan kuat&lt;/li&gt;
+&lt;li&gt;0.80 - 1, derajat hubungan sagat kuat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;spss&#34;&gt;Uji Korelasi dengan SPSS&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;#&#34;&gt;Data Latihan&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;terima-kasih&#34;&gt;Terima Kasih&lt;/h1&gt;
 </description>
     </item>
     
@@ -61,7 +127,8 @@
       <link>http://localhost:4321/post/2024-05-13-vri-sensitifiti-spesifisiti/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/post/2024-05-13-vri-sensitifiti-spesifisiti/</guid>
-      <description>&lt;h2 id=&#34;alat-skrining&#34;&gt;Alat Skrining&lt;/h2&gt;
+      <description>&lt;img src=&#34;https://source.unsplash.com/-table-topped-with-eggs-next-to-a-vase-of-flowers-eIuCJCfRcvI&#34; /&gt;
+&lt;h2 id=&#34;alat-skrining&#34;&gt;Alat Skrining&lt;/h2&gt;
 &lt;p&gt;Andaikan ditemukan sebuah penyakit baru yang sangat mematikan. Agar dapat mengurangi dampak dari penyakit tersebut, Pemerintah Negara X menggelontorkan anggaran untuk riset terhadap alat deteksi dini / &lt;em&gt;skrining&lt;/em&gt; . Dari ratusan peneliti, terpilihlah 3 peneliti dengan inovasi Alat A, Alat B, dan Alat C, sebagai alat &lt;em&gt;skrining&lt;/em&gt;. Setelah dilakukan percobaan, didapatkan data sebagai berikut:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Menurut kalian, alat mana yang seharusnya dipilih oleh Pemerintah Negara X sebagai alat skrining penyakit baru tersebut? Berikan alasannya!&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -648,7 +715,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-986357412&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-123687594&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -658,7 +725,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-986357412&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-123687594&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

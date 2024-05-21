@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
+
+  
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo Blox Builder 5.9.7">
+
+  
+    <link rel="manifest" href="/manifest.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="http://localhost:4321/slides/analisis-korelasi/">
+
+  <title>Analisis Korelasi | Dwicaksono</title>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/theme/black.min.css">
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css">
+  
+
+  
+  
+  
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    <section>
+    
+      <h1 id="ankor">Analisis Korelasi</h1>
+<p><a href="#ankor">Dasar Biostatistika</a> | <a href="#ankor">Dimas BC Wicaksono</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="konskor">Konsep Korelasi</h2>
+<ul>
+<li><a href="#konskor">Analisis Korelasi</a>, metode statistika inferensial untuk mendapatkan derajat hubungan linier antar variabel (<em>bivariable</em>).</li>
+<li><a href="#konskor">Koefisien Korelasi</a>, adalah ukuran derajat hubungan antar variabel.</li>
+<li><a href="#konskor">Arah Hubungan</a>, arah hubungan pada koefisien korelasi adalah positif (+) dan negatif (-)</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="sifat">Sifat Koefisien Korelasi</h2>
+<ul>
+<li>Nilai koefisien korelasi berkisar antara -1 dan 1</li>
+<li>Nilai koefisien korelasi positif (+) menunjukkan <a href="#sifat">hubungan yang searah</a>. Artinya, apabila nilai variabel bebas meningkat, maka nilai variabel terikat juga ikut meningkat (begitu pula sebaliknya).</li>
+<li>Nilai koefisien korelasi negatif (-) menunjukkan <a href="#sifat">hubungan yang berlawanan arah</a>. Artinya, apabila nilai variabel bebas meningkat, maka nilai variabel terikat akan menurun (begitu pula sebaliknya).</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="analisis-korelasi-dan-kausalitas">Analisis Korelasi dan Kausalitas</h2>
+<ul>
+<li>Dalam KBBI menunjukkan bahwa kata &ldquo;korelasi&rdquo; artinya kejadian sebab akibat (kausalitas).</li>
+<li>Meski demikian, analisis korelasi dalam statistik tidak menunjukkan hal yang sama.</li>
+<li>Analisis Korelasi hanya menggambarkan keeratan hubungan seperti yang telah dijelaskan <a href="#konskor">sebelumnya</a></li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="jenis">Jenis Analisis Korelasi</h2>
+<ul>
+<li><a href="#pearson">Korelasi Pearson Product Moment</a>, untuk data yang berskala interval dan rasio.</li>
+<li><a href="#spearman">Korelasi Rank Spearman</a>, untuk data yang berskala ordinal.</li>
+<li><a href="#koefkon">Korelasi Koefisien Kontigensi</a>, untuk data yang berskala nominal.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="hipotesis-uji-korelasi-hipotesis">Hipotesis Uji Korelasi {$hipotesis}</h2>
+<ul>
+<li>Hipotesis:
+<ul>
+<li><code>\(H_0:\)</code> Tidak ada korelasi antara variabel X dan Y</li>
+<li><code>\(H_1:\)</code> Terdapat korelasi antara variabel X dan Y</li>
+</ul>
+</li>
+<li>Tingkat signifikansi -&gt; 0.05 ($\alpha = 0.05$)</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p>Apabila hasil uji menunjukkan nilai <a href="#hipotesis"><em>p-value</em> yang kurang dari <code>\(\alpha\)</code> ($p-value \le \alpha$)</a>, keputusan pengujian adalah tolak <code>\(H_0\)</code>. Artinya terdapat korelasi antara kedua variabel.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="kriteria">Kriteria Koefisien Korelasi</h2>
+<ul>
+<li>Selain hasil uji hipotesis, uji korelasi juga memberikan hasil besar koefisien korelasi.</li>
+<li>Kriteria korelasi dapat diklasifikasikan berdasarkan besar koefisien korelasinya:
+<ul>
+<li>0.00 - 0.29, derajat hubungan sangat lemah</li>
+<li>0.30 - 0.49, derajat hubungan lemah</li>
+<li>0.50 - 0.69, derajat hubungan cukup kuat</li>
+<li>0.70 - 0.79, derajat hubungan kuat</li>
+<li>0.80 - 1, derajat hubungan sagat kuat</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="spss">Uji Korelasi dengan SPSS</h2>
+<p><a href="#">Data Latihan</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="questions">Questions?</h1>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="terima-kasih">Terima Kasih</h1>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+  
+
+  
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>
