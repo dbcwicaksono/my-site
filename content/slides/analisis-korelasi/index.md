@@ -36,6 +36,12 @@ title: Analisis Korelasi
 
 ---
 
+<img src="https://www.questionpro.com/blog/wp-content/uploads/2020/04/Pearson-correlation-coefficient-1.jpg" alt="Image from Questionpro.com"/>
+<figcaption>Gambar 1. Arah korelasi (Image from Questionpro.com)</figcaption>
+
+
+---
+
 ## Analisis Korelasi dan Kausalitas
 
 - Dalam KBBI menunjukkan bahwa kata "korelasi" artinya kejadian sebab akibat (kausalitas).
