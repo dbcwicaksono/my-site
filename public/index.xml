@@ -626,7 +626,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-869573124&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-914273658&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -636,7 +636,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-869573124&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-914273658&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1422,6 +1422,17 @@ perundang-undangan.&lt;/li&gt;
 &lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;tantangan&#34;&gt;Tantangan&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Kerentanan terhadap Serangan Siber, seperti yang terjadi pada eHAC dan BPJS Kesehatan.&lt;/li&gt;
+&lt;li&gt;Pemahaman Hukum dan Kepatuhan, banyak institusi kesehatan yang belum sepenuhnya memahami atau mematuhi regulasi terkait perlindungan data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;tantangan-1&#34;&gt;Tantangan&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Keterbatasan teknologi dan anggaran.&lt;/li&gt;
+&lt;li&gt;Sumber daya manusia&lt;/li&gt;
+&lt;li&gt;Implementasi dan Penegakan Hukum masih lemah&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;

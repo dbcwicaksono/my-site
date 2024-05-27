@@ -273,6 +273,18 @@ Seperti yang telah dijelaskan sebelumnya pada [Langkah - langkah Keamanan Sistem
 
 # Tantangan
 
+- Kerentanan terhadap Serangan Siber, seperti yang terjadi pada eHAC dan BPJS Kesehatan.
+- Pemahaman Hukum dan Kepatuhan, banyak institusi kesehatan yang belum sepenuhnya memahami atau mematuhi regulasi terkait perlindungan data.
+
+
+---
+
+# Tantangan
+
+- Keterbatasan teknologi dan anggaran.
+- Sumber daya manusia
+- Implementasi dan Penegakan Hukum masih lemah
+
 
 ---
 
