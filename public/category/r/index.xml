@@ -5,12 +5,20 @@
     <link>http://localhost:4321/category/r/</link>
       <atom:link href="http://localhost:4321/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 May 2024 21:13:14 -0500</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 18 May 2024 21:13:14 -0500</lastBuildDate>
     <image>
       <url>http://localhost:4321/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
       <link>http://localhost:4321/category/r/</link>
     </image>
+    
+    <item>
+      <title>Analisis Korelasi</title>
+      <link>http://localhost:4321/post/20204-05-18-analisis-korelasi/</link>
+      <pubDate>Sat, 18 May 2024 21:13:14 -0500</pubDate>
+      <guid>http://localhost:4321/post/20204-05-18-analisis-korelasi/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Receiver Operating Characteristic Curve (ROC Curve)</title>

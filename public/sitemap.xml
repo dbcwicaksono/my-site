@@ -10,19 +10,47 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://localhost:4321/post/20204-05-18-analisis-korelasi/</loc>
+    <lastmod>2024-05-18T21:13:14-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/categories/</loc>
+    <lastmod>2024-05-18T21:13:14-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/category/data-analysis/</loc>
+    <lastmod>2024-05-18T21:13:14-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/tag/kuliah-dasar-biostatistik/</loc>
+    <lastmod>2024-05-18T21:13:14-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/post/</loc>
+    <lastmod>2024-05-18T21:13:14-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/category/r/</loc>
+    <lastmod>2024-05-18T21:13:14-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/category/spss/</loc>
+    <lastmod>2024-05-18T21:13:14-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/category/statistik/</loc>
+    <lastmod>2024-05-18T21:13:14-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/tags/</loc>
+    <lastmod>2024-05-18T21:13:14-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:4321/slides/analisis-korelasi/</loc>
     <lastmod>2024-05-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/categories/</loc>
-    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:4321/slides/</loc>
-    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:4321/category/statistik/</loc>
     <lastmod>2024-05-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -31,14 +59,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:4321/category/kuliah/</loc>
-    <lastmod>2024-05-14T21:13:14-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:4321/post/</loc>
-    <lastmod>2024-05-14T21:13:14-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:4321/category/r/</loc>
     <lastmod>2024-05-14T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -54,10 +74,6 @@
     <lastmod>2024-05-14T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/tags/</loc>
-    <lastmod>2024-05-14T21:13:14-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:4321/category/validitas-dan-reliabilitas-instrument/</loc>
     <lastmod>2024-05-14T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -70,18 +86,6 @@
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/category/digital-health/</loc>
-    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:4321/tag/fkm-unej/</loc>
-    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:4321/tag/kesehatan-nasional/</loc>
-    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:4321/tag/r/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -91,10 +95,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:4321/post/2024-05-13-vri-sensitifiti-spesifisiti/</loc>
-    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:4321/post/2024-05-13-dh-siknas/</loc>
     <lastmod>2024-05-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -252,6 +252,38 @@
   </url><url>
     <loc>http://localhost:4321/terms/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/category/digital/</loc>
+    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/tag/etika-digital/</loc>
+    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/tag/keamanan-digital/</loc>
+    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/category/materi-kuliah/</loc>
+    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/tag/privasi-data/</loc>
+    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/category/si-kesehatan/</loc>
+    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/tag/sistem-informasi-kesehatan/</loc>
+    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/slides/etika-keamanan-privasi-data-sik/</loc>
+    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:4321/tag/case-study/</loc>

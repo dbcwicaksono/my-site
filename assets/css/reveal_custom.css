@@ -1,0 +1,9 @@
+.revealx section h1,
+.revealx section h2,
+.revealx section h3 {
+  color: navy;
+}
+
+.example {
+  font-size: 14px;
+}
