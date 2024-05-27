@@ -151,7 +151,7 @@ Serangkaian kebijakan, prosedur, dan langkah-langkah teknis {{% fragment %}}yang
 
 ## Kebijakan dan Prosedur Keamanan
 
-{{% fragment %}}- Sangat penting bagi sebuah sistem informasi memiliki kebijakan tentang keamanan informasi yang berisi tentang aturan dan pedoman untuk perlindingan data{{% /fragment %}}
+{{% fragment %}}- Sangat penting bagi sebuah sistem informasi memiliki kebijakan tentang keamanan informasi yang berisi tentang aturan dan pedoman untuk perlindungan data{{% /fragment %}}
 
 {{% fragment %}}- Memiliki prosedur tanggap insiden yang terstruktur untuk merespon dan mengelola insiden keamanan secara efektif. Termasuk identifikasi, penahanan, pemulihan, dan analisis pasca-insiden.{{% /fragment %}}
 

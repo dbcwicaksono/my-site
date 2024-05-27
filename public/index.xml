@@ -626,7 +626,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-369847215&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-869573124&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -636,7 +636,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-369847215&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-869573124&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1246,7 +1246,7 @@ dari akses, penggunaan, pengungkapan, gangguan, modifikasi, atau perusakan yang 
 &lt;h2 id=&#34;kebijakan-dan-prosedur-keamanan&#34;&gt;Kebijakan dan Prosedur Keamanan&lt;/h2&gt;
 &lt;span class=&#34;fragment &#34; &gt;
   &lt;ul&gt;
-&lt;li&gt;Sangat penting bagi sebuah sistem informasi memiliki kebijakan tentang keamanan informasi yang berisi tentang aturan dan pedoman untuk perlindingan data&lt;/li&gt;
+&lt;li&gt;Sangat penting bagi sebuah sistem informasi memiliki kebijakan tentang keamanan informasi yang berisi tentang aturan dan pedoman untuk perlindungan data&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
