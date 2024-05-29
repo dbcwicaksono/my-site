@@ -12,7 +12,7 @@ image:
 projects: []
 subtitle: ""
 summary: ""
-slides: example
+slides: sensitivitas-spesifisitas
 tags:
 - Sensitivitas
 - Spesifisitas
@@ -28,33 +28,111 @@ library(readr)
 mydata = read.csv("data_sample_ss.csv")
 ```
 
-<img src="https://source.unsplash.com/-table-topped-with-eggs-next-to-a-vase-of-flowers-eIuCJCfRcvI" />
 
 ## Alat Skrining
 
-Andaikan ditemukan sebuah penyakit baru yang sangat mematikan. Agar dapat mengurangi dampak dari penyakit tersebut, Pemerintah Negara X menggelontorkan anggaran untuk riset terhadap alat deteksi dini / *skrining* . Dari ratusan peneliti, terpilihlah 3 peneliti dengan inovasi Alat A, Alat B, dan Alat C, sebagai alat *skrining*. Setelah dilakukan percobaan, didapatkan data sebagai berikut:
+Andaikan ditemukan sebuah penyakit baru yang sangat mematikan. 
 
-```r
+Agar dapat mengurangi dampak dari penyakit tersebut, Pemerintah menggelontorkan anggaran untuk pembuatan alat deteksi dini / *skrining*. 
 
-```
+Dari ratusan usulan alat, 3 alat *skrining* yang terpilih. Alat tersebut adalah:
 
-Menurut kalian, alat mana yang seharusnya dipilih oleh Pemerintah Negara X sebagai alat skrining penyakit baru tersebut? Berikan alasannya!
+- Alat A
+- Alat B
+- Alat C
+
+
+Setelah dilakukan pengujian kebaikan alat kepada 200 responden yang berbeda untuk setiap alat. Seluruh responden juga diuji dengan alat pengujian laboratorium (*Gold Standard*). Perbandingan hasil *Skrining* dengan *Gold Standard* didapatkan data sebagai berikut:
+
+
+<table style="text-align: center; width: 45%; margin: auto; float: left;">
+  <caption>Perbandingan Hasil Skrining <b>Alat A</b> dengan Gold Standar</caption>
+  <tr>
+    <th rowspan="2" style="align-content: center;">Skrining</th>
+    <th colspan="2">Gold Standard</th>
+  </tr>
+  <tr>
+    <th>Terpapar</th>
+    <th>Tidak</th>
+  </tr>
+  <tr>
+    <th>Terpapar</th>
+    <td>30</td>
+    <td style="color:red; font-weight: bold;">50</td>
+  </tr>
+  <tr>
+    <th>Tidak</th>
+    <td style="color:red; font-weight: bold;">70</td>
+    <td>50</td>
+  </tr> 
+</table>
+
+
+<table style="text-align: center; width: 45%; margin: auto; float: right;">
+  <caption>Perbandingan Hasil Skrining <b>Alat B</b> dengan Gold Standar</caption>
+  <tr>
+    <th rowspan="2"  style="align-content: center;">Skrining</th>
+    <th colspan="2">Gold Standard</th>
+  </tr>
+  <tr>
+    <th>Terpapar</th>
+    <th>Tidak</th>
+  </tr>
+  <tr>
+    <th>Terpapar</th>
+    <td>80</td>
+    <td style="color:red; font-weight: bold;">50</td>
+  </tr>
+  <tr>
+    <th>Tidak</th>
+    <td style="color:red; font-weight: bold;">30</td>
+    <td>40</td>
+  </tr> 
+</table>
+
+<br />
+
+<table style="text-align: center; width: 70%; margin: auto;">
+  <caption>Perbandingan Hasil Skrining <b>Alat C</b> dengan Gold Standar</caption>
+  <tr>
+    <th rowspan="2"  style="align-content: center;">Skrining</th>
+    <th colspan="2">Gold Standard</th>
+  </tr>
+  <tr>
+    <th>Terpapar</th>
+    <th>Tidak</th>
+  </tr>
+  <tr>
+    <th>Terpapar</th>
+    <td>95</td>
+    <td style="color:red; font-weight: bold;">15</td>
+  </tr>
+  <tr>
+    <th>Tidak</th>
+    <td style="color:red; font-weight: bold;">10</td>
+    <td>80</td>
+  </tr> 
+</table>
+
+
+
+Menurut kalian, alat mana yang seharusnya dipilih oleh Pemerintah sebagai alat *skrining* penyakit tersebut? Berikan alasannya!
 
 {{% callout note %}}
-Instrumen deteksi dini memberikan hasil yang menunjukkan **_kemungkinan adanya paparan_**, karena umumnya membutuhkan pengujian lebih lanjut di laboratorium untuk mendapatkan hasil yang lebih akurat. Rentang waktu antara kemungkinan deteksi awal melalui skrining dan deteksi setelah munculnya gejala disebut _Detectable Pre-Clinical Phase_ atau DPCP. Jika suatu penyakit dapat teridentifikasi selama fase DPCP, maka pengobatan dapat dimulai lebih awal dan hasilnya dapat lebih positif.
+Instrumen deteksi dini (*skrining*) memberikan hasil yang menunjukkan **_kemungkinan adanya paparan_**, karena umumnya membutuhkan pengujian lebih lanjut di laboratorium untuk mendapatkan hasil yang lebih akurat. Rentang waktu antara kemungkinan deteksi awal melalui skrining dan deteksi setelah munculnya gejala disebut _Detectable Pre-Clinical Phase_ atau DPCP. Jika suatu penyakit dapat teridentifikasi selama fase DPCP, maka pengobatan dapat dimulai lebih awal dan hasilnya dapat lebih positif.
 {{% /callout %}}
 
 ## Pendahuluan
 
-Dalam menentukan alat yang baik dalam melakukan sebuah pengukuran adalah dengan melihat tingkat akurasi alat tersebut. Pada *thermogun*, kebaikan dalam mengukur suhu tubuh adalah ketika ia mampu memberikan hasil yang cukup dekat *(akurat)* dengan hasil pengukuran standar. Pengukuran standar ini dinamakan dengan **Gold Standard**. Jika hasil pengukuran dari *thermogun* memiliki rata-rata selisih yang kecil (semisal 0.1$^\circ$C), maka dapat dikatakan bahwa *thermogun* memiliki hasil pengukuran yang akurat. **Namun bagaimana jika hasil pengukurannya memiliki deviasi standar yang tinggi?**
+Dalam menentukan alat yang baik dalam melakukan sebuah pengukuran adalah dengan melihat tingkat akurasi alat tersebut. Pada *thermogun*, kebaikan dalam mengukur suhu tubuh adalah ketika ia mampu memberikan hasil yang cukup dekat *(akurat)* dengan hasil pengukuran standar (semisal *thermometer*). Pengukuran standar ini dinamakan dengan **Gold Standard**. Jika hasil pengukuran dari *thermogun* memiliki rata-rata selisih yang kecil (semisal 0.1$^\circ$C), maka dapat dikatakan bahwa *thermogun* memiliki hasil pengukuran yang akurat. **Namun bagaimana jika hasil pengukurannya memiliki deviasi standar yang tinggi?**
 
-Namun tidak semua alat memiliki proses evaluasi alat seperti *thermogun*, sebagian alat hanya memberikan 2 hasil saja yaitu ya atau tidak; terpapar atau tidak; diabetes atau tidak; dsb. Pengujian pada alat-alat tersebut dapat dilakukan dengan menggunakan ukuran [Sensitivitas](#) dan [Spesifisitas](#).
+Tidak semua alat memiliki proses evaluasi alat seperti *thermogun*, sebagian alat hanya memberikan 2 hasil saja yaitu ya atau tidak; terpapar atau tidak; diabetes atau tidak; dsb. Pengujian atau evaluasi pada alat-alat tersebut dapat dilakukan dengan menggunakan ukuran [Sensitivitas](#) dan [Spesifisitas](#).
 
 ## Sensitivitas dan Spesifisitas
 
 [Sensitivitas](#) adalah nilai proporsi antara orang yang terdeteksi sakit ([**_true positives_**](#)) dibandingkan dengan seluruh orang yang benar-benar sakit ([**_true positives_** + **_false negatives_**](#)). Andaikan kita melakukan pengujian pada Alat A ke 10 orang yang sedang sakit. Jika ternyata hasil skrining menunjukkan bahwa 8 dari 10 orang terdeteksi sakit, maka sensitivitas Alat A adalah 8/10 atau 80%.
 
-Sedangkan [Spesifisitas]($) adalah proporsi antara orang yang tidak terdeteksi sakit ([**_true negatives_**](#)) dibandingkan dengan seluruh orang yang benar-benar tidak sakit ([**_false positives_** + **_true negatives_**](#)). Andaikan kita melakukan skrining dengan Alat B kepada 10 orang yang tidak sakit. Jika hasil skrining menunjukkan bahwa terdapat 9 orang yang tidak sakit, maka hasil spesifisiti adalah 9/10 atau 90%.
+Sedangkan [Spesifisitas]($) adalah proporsi antara orang yang tidak terdeteksi sakit ([**_true negatives_**](#)) dibandingkan dengan seluruh orang yang benar-benar tidak sakit ([**_false positives_** + **_true negatives_**](#)). Andaikan kita melakukan skrining dengan Alat B kepada 10 orang yang tidak sakit. Jika hasil skrining menunjukkan bahwa terdapat 9 orang yang tidak sakit, maka hasil spesifisiti adalah 9/10 atau 90%..
 
 <div class="figure">
 <img src="https://thecompletemedic.com/images/core/research-diagnostic-table_original.png" />
@@ -126,6 +204,7 @@ Selanjutnya kita lihat tabulasi silang dari data yang sudah kita `import`:
 ```{r}
 attach(mydata)
 tabulasi_silang = table(skrining, gold.std)
+tabulasi_silang
 ```
 
 Gunakan fungsi `sensitivity` Untuk mendapatkan Nilai Sensitivitas:

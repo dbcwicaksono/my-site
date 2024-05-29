@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Latihan | Dwicaksono</title>
+    <link>http://localhost:4321/tag/latihan/</link>
+      <atom:link href="http://localhost:4321/tag/latihan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Latihan</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:4321/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Latihan</title>
+      <link>http://localhost:4321/tag/latihan/</link>
+    </image>
+    
+    <item>
+      <title>Slides</title>
+      <link>http://localhost:4321/slides/revealjs-test/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/slides/revealjs-test/</guid>
+      <description>&lt;section data-transition=&#34;slide&#34;&gt;
+    The train goes on …
+&lt;/section&gt;
+&lt;section data-transition=&#34;slide&#34;&gt;
+    and on …
+&lt;/section&gt;
+&lt;section data-transition=&#34;slide-in fade-out&#34;&gt;
+    and stops.
+&lt;/section&gt;
+&lt;section data-transition=&#34;fade-in slide-out&#34;&gt;
+    (Passengers entering and leaving)
+&lt;/section&gt;
+&lt;section data-transition=&#34;slide&#34;&gt;
+    And it starts again.
+&lt;/section&gt;
+&lt;section data-auto-animate&gt;
+  &lt;h1&gt;Implicit&lt;/h1&gt;
+&lt;/section&gt;
+&lt;section data-auto-animate&gt;
+  &lt;h1&gt;Implicit&lt;/h1&gt;
+  &lt;h1&gt;Animation&lt;/h1&gt;
+&lt;/section&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -25,7 +25,7 @@
 &lt;li&gt;&lt;a href=&#34;#intro&#34;&gt;Pendahuluan&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#etika&#34;&gt;Etika dalam SI&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#keamanan&#34;&gt;Keamanan dalam SI&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#privasi&#34;&gt;Privasi Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#privasi-data&#34;&gt;Privasi Data&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#tantangan&#34;&gt;Tantangan&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
@@ -41,7 +41,34 @@
 &lt;/ul&gt;
 &lt;/span&gt;
 &lt;hr&gt;
-&lt;img scr=&#34;/kebocoran-data-indonesia.png&#34; /&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Kebocoran Data Kesehatan di Indonesia&#34; srcset=&#34;
+               /slides/etika-keamanan-privasi-data-sik/images/kebocoran-data-indonesia_hube7e76c07acd0ade711c859200c57521_248649_39a0ec45b36591c4c0f988feaa237d5e.webp 400w,
+               /slides/etika-keamanan-privasi-data-sik/images/kebocoran-data-indonesia_hube7e76c07acd0ade711c859200c57521_248649_6c308f1aa05cf1e80276080be41ddf0d.webp 760w,
+               /slides/etika-keamanan-privasi-data-sik/images/kebocoran-data-indonesia_hube7e76c07acd0ade711c859200c57521_248649_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:4321/slides/etika-keamanan-privasi-data-sik/images/kebocoran-data-indonesia_hube7e76c07acd0ade711c859200c57521_248649_39a0ec45b36591c4c0f988feaa237d5e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;404&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;etika-dalam-si&#34;&gt;Etika dalam SI&lt;/h1&gt;
 &lt;hr&gt;
@@ -112,18 +139,6 @@
 &lt;a href=&#34;#transparansi&#34;&gt;Pengguna harus bisa memahami kebijakan dan praktik terkait data mereka&lt;/a&gt;
 &lt;/span&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;contoh-syarat--ketentuan-pengguna&#34;&gt;Contoh Syarat &amp;amp; Ketentuan Pengguna&lt;/h3&gt;
-&lt;div class=&#39;left&#39; style=&#39;float:left;width:48%&#39;&gt;
-  &lt;iframe 
-  src=&#34;https://drive.google.com/file/d/1Aqvci8ONri_NObwBhPXKtDB9NixwUF7A/preview&#34; width=&#34;300&#34; height=&#34;500&#34; allow=&#34;autoplay&#34;
-&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#39;right&#39; style=&#39;float:right;width:48%&#39;&gt;
-  &lt;iframe 
-  src=&#34;https://drive.google.com/file/d/1LFda-AJYW9PVVFhmnFKvabl9s14j-FiN/preview&#34; width=&#34;300&#34; height=&#34;500&#34; allow=&#34;autoplay&#34;
-&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;hr&gt;
 &lt;h1 id=&#34;keamanan-dalam-si&#34;&gt;Keamanan dalam SI&lt;/h1&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;keamanan&#34;&gt;Keamanan dalam SI&lt;/h2&gt;
@@ -134,11 +149,21 @@ dari akses, penggunaan, pengungkapan, gangguan, modifikasi, atau perusakan yang 
 &lt;/span&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;tujuan-keamanan&#34;&gt;Tujuan Keamanan SI&lt;/h2&gt;
-&lt;ul&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#tujuan-keamanan&#34;&gt;Kerahasiaan&lt;/a&gt; (&lt;em&gt;Confidentiality&lt;/em&gt;), Menjaga informasi agar hanya dapat diakses oleh pihak yang berwenang.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#tujuan-keamanan&#34;&gt;Integritas&lt;/a&gt; (&lt;em&gt;Integrity&lt;/em&gt;), Menjaga keakuratan dan keutuhan informasi dari perubahan yang tidak sah.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#tujuan-keamanan&#34;&gt;Ketersediaan&lt;/a&gt; (&lt;em&gt;Availability&lt;/em&gt;), Memastikan informasi dan sumber daya terkait tersedia bagi pengguna yang berwenang ketika diperlukan.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;ancaman-terhadap-keamanan-si&#34;&gt;Ancaman terhadap Keamanan SI&lt;/h2&gt;
 &lt;ul&gt;
@@ -147,7 +172,7 @@ dari akses, penggunaan, pengungkapan, gangguan, modifikasi, atau perusakan yang 
 &lt;li&gt;Kesalahan Manusia, Kesalahan dalam pengelolaan data atau konfigurasi&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;langkah-langkah-keamanan&#34;&gt;Langkah-langkah Keamanan&lt;/h2&gt;
+&lt;h2 id=&#34;langkah-keamanan&#34;&gt;Langkah-langkah Keamanan&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Kontrol Akses: Autentikasi dan Otoritas&lt;/li&gt;
 &lt;li&gt;Enkripsi&lt;/li&gt;
@@ -157,18 +182,213 @@ dari akses, penggunaan, pengungkapan, gangguan, modifikasi, atau perusakan yang 
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;kebijakan-dan-prosedur-keamanan&#34;&gt;Kebijakan dan Prosedur Keamanan&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Sangat penting bagi sebuah sistem informasi memiliki kebijakan tentang keamanan informasi yang berisi tentang aturan dan pedoman untuk perlindingan data&lt;/li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;ul&gt;
+&lt;li&gt;Sangat penting bagi sebuah sistem informasi memiliki kebijakan tentang keamanan informasi yang berisi tentang aturan dan pedoman untuk perlindungan data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;ul&gt;
 &lt;li&gt;Memiliki prosedur tanggap insiden yang terstruktur untuk merespon dan mengelola insiden keamanan secara efektif. Termasuk identifikasi, penahanan, pemulihan, dan analisis pasca-insiden.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;privasi-data&#34;&gt;Privasi Data&lt;/h1&gt;
+&lt;h3 id=&#34;uu-27-tahun-2022&#34;&gt;UU 27 Tahun 2022&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;privasi-data&#34;&gt;Privasi Data&lt;/h2&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;ul&gt;
+&lt;li&gt;Privasi data adalah hak individu untuk mengendalikan informasi pribadi mereka.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;ul&gt;
+&lt;li&gt;UU 27 Tahun 2022 menjelaskan bahwa berdasarkan sifatnya, data pribadi dibagi menjadi 2
+&lt;ul&gt;
+&lt;li&gt;Data Pribadi yang bersifat spesifik&lt;/li&gt;
+&lt;li&gt;Data Pribadi yang bersifat umum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#privasi-data&#34;&gt;Pelindungan Data Pribadi masuk dalam pelindungan hak asasi manusia.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;data-pribadi-spesifik&#34;&gt;Data Pribadi Spesifik&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;data dan informasi kesehatan,&lt;/li&gt;
+&lt;li&gt;data biometrik,&lt;/li&gt;
+&lt;li&gt;data genetika,&lt;/li&gt;
+&lt;li&gt;catatan kejahatan,&lt;/li&gt;
+&lt;li&gt;data anak,&lt;/li&gt;
+&lt;li&gt;data keruangan pribadi, dan/ atau&lt;/li&gt;
+&lt;li&gt;data lainnya sesuai dengan ketentuan peraturan
+perundang-undangan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;data-pribadi-umum&#34;&gt;Data Pribadi Umum&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;nama lengkap,&lt;/li&gt;
+&lt;li&gt;jenis kelamin,&lt;/li&gt;
+&lt;li&gt;kewarganegaraan,&lt;/li&gt;
+&lt;li&gt;agama,&lt;/li&gt;
+&lt;li&gt;status perkawinan, dan/ atau&lt;/li&gt;
+&lt;li&gt;Data Pribadi yang dikombinasikan mengidentifikasi seseorang&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Setiap warga negara diwajibkan untuk melakukan pengendalian terhadap data pribadi.&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Pemerintah?
+&lt;/span&gt; &lt;span class=&#34;fragment &#34; &gt;
+  Membuat regulasi,
+&lt;/span&gt; &lt;span class=&#34;fragment &#34; &gt;
+  sistem,
+&lt;/span&gt; &lt;span class=&#34;fragment &#34; &gt;
+  infrastruktur,
+&lt;/span&gt; &lt;span class=&#34;fragment &#34; &gt;
+  dan sumber daya yang kompeten.
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ancaman-terhadap-privasi-data&#34;&gt;Ancaman terhadap Privasi Data&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pencurian Identitas&lt;/li&gt;
+&lt;li&gt;Peretasan&lt;/li&gt;
+&lt;li&gt;Penggunaan data tidak sah&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;bagaiman-kita-melindunginya&#34;&gt;Bagaiman Kita Melindunginya?&lt;/h2&gt;
+&lt;div style=&#34;margin:0px; padding:0px; text-align:left;&#34;&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;ul&gt;
+&lt;li&gt;Penggunaan sandi yang kuat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;ul&gt;
+&lt;li&gt;Pengamanan perangkat, gunakan layanan keamanan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;ul&gt;
+&lt;li&gt;Perhatikan dan periksa kebijakan privasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;ul&gt;
+&lt;li&gt;Berhati - hati terhadap penipuan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;ul&gt;
+&lt;li&gt;Mengikuti pendidikan seperti sosialisasi, seminar, dsb.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;bagaimana-dengan-pemerintah&#34;&gt;Bagaimana dengan Pemerintah?&lt;/h2&gt;
+&lt;p&gt;Seperti yang telah dijelaskan sebelumnya pada &lt;a href=&#34;#langkah-keamanan&#34;&gt;Langkah - langkah Keamanan Sistem Informasi&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kontrol Akses: Autentikasi dan Otoritas&lt;/li&gt;
+&lt;li&gt;Enkripsi&lt;/li&gt;
+&lt;li&gt;Firewall&lt;/li&gt;
+&lt;li&gt;Patch Management&lt;/li&gt;
+&lt;li&gt;Backup dan Pemulihan Data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;contoh-syarat--ketentuan-pengguna&#34;&gt;Contoh Syarat &amp;amp; Ketentuan Pengguna&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Syarat Ketentuan Pengguna Aplikasi SatuSehat&#34; srcset=&#34;
+               /slides/etika-keamanan-privasi-data-sik/images/syarat-ketentuan-pengguna-satusehat-app_huee3f1789cd3cbc3a5a2b578df1f7121d_131795_9dc64f11204cba0ba24cb1b7a422681f.webp 400w,
+               /slides/etika-keamanan-privasi-data-sik/images/syarat-ketentuan-pengguna-satusehat-app_huee3f1789cd3cbc3a5a2b578df1f7121d_131795_aedc8b79b6c71a5668ac309cdf62b274.webp 760w,
+               /slides/etika-keamanan-privasi-data-sik/images/syarat-ketentuan-pengguna-satusehat-app_huee3f1789cd3cbc3a5a2b578df1f7121d_131795_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;http://localhost:4321/slides/etika-keamanan-privasi-data-sik/images/syarat-ketentuan-pengguna-satusehat-app_huee3f1789cd3cbc3a5a2b578df1f7121d_131795_9dc64f11204cba0ba24cb1b7a422681f.webp&#34;
+               width=&#34;713&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;contoh-syarat--ketentuan-pengguna-1&#34;&gt;Contoh Syarat &amp;amp; Ketentuan Pengguna&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Syarat Ketentuan Pengguna Aplikasi SatuSehat&#34; srcset=&#34;
+               /slides/etika-keamanan-privasi-data-sik/images/pemberitahuan-privasi-satusehat-app_hub1a786eda5b43191abccb9e395d4e356_172948_3aa216a5258f515a75d94308a7ba864e.webp 400w,
+               /slides/etika-keamanan-privasi-data-sik/images/pemberitahuan-privasi-satusehat-app_hub1a786eda5b43191abccb9e395d4e356_172948_8513c12bfd14271e258762e03e60239d.webp 760w,
+               /slides/etika-keamanan-privasi-data-sik/images/pemberitahuan-privasi-satusehat-app_hub1a786eda5b43191abccb9e395d4e356_172948_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;http://localhost:4321/slides/etika-keamanan-privasi-data-sik/images/pemberitahuan-privasi-satusehat-app_hub1a786eda5b43191abccb9e395d4e356_172948_3aa216a5258f515a75d94308a7ba864e.webp&#34;
+               width=&#34;696&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;tantangan&#34;&gt;Tantangan&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Kerentanan terhadap Serangan Siber, seperti yang terjadi pada eHAC dan BPJS Kesehatan.&lt;/li&gt;
+&lt;li&gt;Pemahaman Hukum dan Kepatuhan, banyak institusi kesehatan yang belum sepenuhnya memahami atau mematuhi regulasi terkait perlindungan data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;tantangan-1&#34;&gt;Tantangan&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Keterbatasan teknologi dan anggaran.&lt;/li&gt;
+&lt;li&gt;Sumber daya manusia&lt;/li&gt;
+&lt;li&gt;Implementasi dan Penegakan Hukum masih lemah&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.hugoblox.com/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>http://localhost:4321/slides/revealjs-test/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/slides/revealjs-test/</guid>
+      <description>&lt;h2 id=&#34;slide-1&#34;&gt;Slide 1&lt;/h2&gt;
+&lt;p&gt;A paragraph with some text and a &lt;a href=&#34;https://hakim.se&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;slide-2&#34;&gt;Slide 2&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;slide-3&#34;&gt;Slide 3&lt;/h2&gt;
 </description>
     </item>
     

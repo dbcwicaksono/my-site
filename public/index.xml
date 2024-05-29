@@ -144,21 +144,92 @@
       <link>http://localhost:4321/post/2024-05-13-vri-sensitifiti-spesifisiti/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/post/2024-05-13-vri-sensitifiti-spesifisiti/</guid>
-      <description>&lt;img src=&#34;https://source.unsplash.com/-table-topped-with-eggs-next-to-a-vase-of-flowers-eIuCJCfRcvI&#34; /&gt;
-&lt;h2 id=&#34;alat-skrining&#34;&gt;Alat Skrining&lt;/h2&gt;
-&lt;p&gt;Andaikan ditemukan sebuah penyakit baru yang sangat mematikan. Agar dapat mengurangi dampak dari penyakit tersebut, Pemerintah Negara X menggelontorkan anggaran untuk riset terhadap alat deteksi dini / &lt;em&gt;skrining&lt;/em&gt; . Dari ratusan peneliti, terpilihlah 3 peneliti dengan inovasi Alat A, Alat B, dan Alat C, sebagai alat &lt;em&gt;skrining&lt;/em&gt;. Setelah dilakukan percobaan, didapatkan data sebagai berikut:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Menurut kalian, alat mana yang seharusnya dipilih oleh Pemerintah Negara X sebagai alat skrining penyakit baru tersebut? Berikan alasannya!&lt;/p&gt;
+      <description>&lt;h2 id=&#34;alat-skrining&#34;&gt;Alat Skrining&lt;/h2&gt;
+&lt;p&gt;Andaikan ditemukan sebuah penyakit baru yang sangat mematikan.&lt;/p&gt;
+&lt;p&gt;Agar dapat mengurangi dampak dari penyakit tersebut, Pemerintah menggelontorkan anggaran untuk pembuatan alat deteksi dini / &lt;em&gt;skrining&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Dari ratusan usulan alat, 3 alat &lt;em&gt;skrining&lt;/em&gt; yang terpilih. Alat tersebut adalah:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alat A&lt;/li&gt;
+&lt;li&gt;Alat B&lt;/li&gt;
+&lt;li&gt;Alat C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Setelah dilakukan pengujian kebaikan alat kepada 200 responden yang berbeda untuk setiap alat. Seluruh responden juga diuji dengan alat pengujian laboratorium (&lt;em&gt;Gold Standard&lt;/em&gt;). Perbandingan hasil &lt;em&gt;Skrining&lt;/em&gt; dengan &lt;em&gt;Gold Standard&lt;/em&gt; didapatkan data sebagai berikut:&lt;/p&gt;
+&lt;table style=&#34;text-align: center; width: 45%; margin: auto; float: left;&#34;&gt;
+  &lt;caption&gt;Perbandingan Hasil Skrining &lt;b&gt;Alat A&lt;/b&gt; dengan Gold Standar&lt;/caption&gt;
+  &lt;tr&gt;
+    &lt;th rowspan=&#34;2&#34; style=&#34;align-content: center;&#34;&gt;Skrining&lt;/th&gt;
+    &lt;th colspan=&#34;2&#34;&gt;Gold Standard&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Terpapar&lt;/th&gt;
+    &lt;th&gt;Tidak&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Terpapar&lt;/th&gt;
+    &lt;td&gt;30&lt;/td&gt;
+    &lt;td style=&#34;color:red; font-weight: bold;&#34;&gt;50&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Tidak&lt;/th&gt;
+    &lt;td style=&#34;color:red; font-weight: bold;&#34;&gt;70&lt;/td&gt;
+    &lt;td&gt;50&lt;/td&gt;
+  &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;table style=&#34;text-align: center; width: 45%; margin: auto; float: right;&#34;&gt;
+  &lt;caption&gt;Perbandingan Hasil Skrining &lt;b&gt;Alat B&lt;/b&gt; dengan Gold Standar&lt;/caption&gt;
+  &lt;tr&gt;
+    &lt;th rowspan=&#34;2&#34;  style=&#34;align-content: center;&#34;&gt;Skrining&lt;/th&gt;
+    &lt;th colspan=&#34;2&#34;&gt;Gold Standard&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Terpapar&lt;/th&gt;
+    &lt;th&gt;Tidak&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Terpapar&lt;/th&gt;
+    &lt;td&gt;80&lt;/td&gt;
+    &lt;td style=&#34;color:red; font-weight: bold;&#34;&gt;50&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Tidak&lt;/th&gt;
+    &lt;td style=&#34;color:red; font-weight: bold;&#34;&gt;30&lt;/td&gt;
+    &lt;td&gt;40&lt;/td&gt;
+  &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;table style=&#34;text-align: center; width: 70%; margin: auto;&#34;&gt;
+  &lt;caption&gt;Perbandingan Hasil Skrining &lt;b&gt;Alat C&lt;/b&gt; dengan Gold Standar&lt;/caption&gt;
+  &lt;tr&gt;
+    &lt;th rowspan=&#34;2&#34;  style=&#34;align-content: center;&#34;&gt;Skrining&lt;/th&gt;
+    &lt;th colspan=&#34;2&#34;&gt;Gold Standard&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Terpapar&lt;/th&gt;
+    &lt;th&gt;Tidak&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Terpapar&lt;/th&gt;
+    &lt;td&gt;95&lt;/td&gt;
+    &lt;td style=&#34;color:red; font-weight: bold;&#34;&gt;15&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Tidak&lt;/th&gt;
+    &lt;td style=&#34;color:red; font-weight: bold;&#34;&gt;10&lt;/td&gt;
+    &lt;td&gt;80&lt;/td&gt;
+  &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;p&gt;Menurut kalian, alat mana yang seharusnya dipilih oleh Pemerintah sebagai alat &lt;em&gt;skrining&lt;/em&gt; penyakit tersebut? Berikan alasannya!&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Instrumen deteksi dini memberikan hasil yang menunjukkan &lt;strong&gt;&lt;em&gt;kemungkinan adanya paparan&lt;/em&gt;&lt;/strong&gt;, karena umumnya membutuhkan pengujian lebih lanjut di laboratorium untuk mendapatkan hasil yang lebih akurat. Rentang waktu antara kemungkinan deteksi awal melalui skrining dan deteksi setelah munculnya gejala disebut &lt;em&gt;Detectable Pre-Clinical Phase&lt;/em&gt; atau DPCP. Jika suatu penyakit dapat teridentifikasi selama fase DPCP, maka pengobatan dapat dimulai lebih awal dan hasilnya dapat lebih positif.
+    Instrumen deteksi dini (&lt;em&gt;skrining&lt;/em&gt;) memberikan hasil yang menunjukkan &lt;strong&gt;&lt;em&gt;kemungkinan adanya paparan&lt;/em&gt;&lt;/strong&gt;, karena umumnya membutuhkan pengujian lebih lanjut di laboratorium untuk mendapatkan hasil yang lebih akurat. Rentang waktu antara kemungkinan deteksi awal melalui skrining dan deteksi setelah munculnya gejala disebut &lt;em&gt;Detectable Pre-Clinical Phase&lt;/em&gt; atau DPCP. Jika suatu penyakit dapat teridentifikasi selama fase DPCP, maka pengobatan dapat dimulai lebih awal dan hasilnya dapat lebih positif.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;pendahuluan&#34;&gt;Pendahuluan&lt;/h2&gt;
-&lt;p&gt;Dalam menentukan alat yang baik dalam melakukan sebuah pengukuran adalah dengan melihat tingkat akurasi alat tersebut. Pada &lt;em&gt;thermogun&lt;/em&gt;, kebaikan dalam mengukur suhu tubuh adalah ketika ia mampu memberikan hasil yang cukup dekat &lt;em&gt;(akurat)&lt;/em&gt; dengan hasil pengukuran standar. Pengukuran standar ini dinamakan dengan &lt;strong&gt;Gold Standard&lt;/strong&gt;. Jika hasil pengukuran dari &lt;em&gt;thermogun&lt;/em&gt; memiliki rata-rata selisih yang kecil (semisal 0.1$^\circ$C), maka dapat dikatakan bahwa &lt;em&gt;thermogun&lt;/em&gt; memiliki hasil pengukuran yang akurat. &lt;strong&gt;Namun bagaimana jika hasil pengukurannya memiliki deviasi standar yang tinggi?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Namun tidak semua alat memiliki proses evaluasi alat seperti &lt;em&gt;thermogun&lt;/em&gt;, sebagian alat hanya memberikan 2 hasil saja yaitu ya atau tidak; terpapar atau tidak; diabetes atau tidak; dsb. Pengujian pada alat-alat tersebut dapat dilakukan dengan menggunakan ukuran &lt;a href=&#34;#&#34;&gt;Sensitivitas&lt;/a&gt; dan &lt;a href=&#34;#&#34;&gt;Spesifisitas&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dalam menentukan alat yang baik dalam melakukan sebuah pengukuran adalah dengan melihat tingkat akurasi alat tersebut. Pada &lt;em&gt;thermogun&lt;/em&gt;, kebaikan dalam mengukur suhu tubuh adalah ketika ia mampu memberikan hasil yang cukup dekat &lt;em&gt;(akurat)&lt;/em&gt; dengan hasil pengukuran standar (semisal &lt;em&gt;thermometer&lt;/em&gt;). Pengukuran standar ini dinamakan dengan &lt;strong&gt;Gold Standard&lt;/strong&gt;. Jika hasil pengukuran dari &lt;em&gt;thermogun&lt;/em&gt; memiliki rata-rata selisih yang kecil (semisal 0.1$^\circ$C), maka dapat dikatakan bahwa &lt;em&gt;thermogun&lt;/em&gt; memiliki hasil pengukuran yang akurat. &lt;strong&gt;Namun bagaimana jika hasil pengukurannya memiliki deviasi standar yang tinggi?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Tidak semua alat memiliki proses evaluasi alat seperti &lt;em&gt;thermogun&lt;/em&gt;, sebagian alat hanya memberikan 2 hasil saja yaitu ya atau tidak; terpapar atau tidak; diabetes atau tidak; dsb. Pengujian atau evaluasi pada alat-alat tersebut dapat dilakukan dengan menggunakan ukuran &lt;a href=&#34;#&#34;&gt;Sensitivitas&lt;/a&gt; dan &lt;a href=&#34;#&#34;&gt;Spesifisitas&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;sensitivitas-dan-spesifisitas&#34;&gt;Sensitivitas dan Spesifisitas&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;#&#34;&gt;Sensitivitas&lt;/a&gt; adalah nilai proporsi antara orang yang terdeteksi sakit (&lt;a href=&#34;#&#34;&gt;&lt;strong&gt;&lt;em&gt;true positives&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;) dibandingkan dengan seluruh orang yang benar-benar sakit (&lt;a href=&#34;#&#34;&gt;&lt;strong&gt;&lt;em&gt;true positives&lt;/em&gt;&lt;/strong&gt; + &lt;strong&gt;&lt;em&gt;false negatives&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;). Andaikan kita melakukan pengujian pada Alat A ke 10 orang yang sedang sakit. Jika ternyata hasil skrining menunjukkan bahwa 8 dari 10 orang terdeteksi sakit, maka sensitivitas Alat A adalah 8/10 atau 80%.&lt;/p&gt;
-&lt;p&gt;Sedangkan &lt;a href=&#34;$&#34;&gt;Spesifisitas&lt;/a&gt; adalah proporsi antara orang yang tidak terdeteksi sakit (&lt;a href=&#34;#&#34;&gt;&lt;strong&gt;&lt;em&gt;true negatives&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;) dibandingkan dengan seluruh orang yang benar-benar tidak sakit (&lt;a href=&#34;#&#34;&gt;&lt;strong&gt;&lt;em&gt;false positives&lt;/em&gt;&lt;/strong&gt; + &lt;strong&gt;&lt;em&gt;true negatives&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;). Andaikan kita melakukan skrining dengan Alat B kepada 10 orang yang tidak sakit. Jika hasil skrining menunjukkan bahwa terdapat 9 orang yang tidak sakit, maka hasil spesifisiti adalah 9/10 atau 90%.&lt;/p&gt;
+&lt;p&gt;Sedangkan &lt;a href=&#34;$&#34;&gt;Spesifisitas&lt;/a&gt; adalah proporsi antara orang yang tidak terdeteksi sakit (&lt;a href=&#34;#&#34;&gt;&lt;strong&gt;&lt;em&gt;true negatives&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;) dibandingkan dengan seluruh orang yang benar-benar tidak sakit (&lt;a href=&#34;#&#34;&gt;&lt;strong&gt;&lt;em&gt;false positives&lt;/em&gt;&lt;/strong&gt; + &lt;strong&gt;&lt;em&gt;true negatives&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;). Andaikan kita melakukan skrining dengan Alat B kepada 10 orang yang tidak sakit. Jika hasil skrining menunjukkan bahwa terdapat 9 orang yang tidak sakit, maka hasil spesifisiti adalah 9/10 atau 90%..&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
 &lt;img src=&#34;https://thecompletemedic.com/images/core/research-diagnostic-table_original.png&#34; /&gt;
 &lt;p class=&#34;caption&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:tab-diagnstk&#34;&gt;&lt;/span&gt;Gambar 1: Tabel Diagnostik&lt;/p&gt;
@@ -202,6 +273,11 @@ Sedangkan alat skrining yang mendapatkan hasil spesifisitas tinggi menunjukkan b
 &lt;p&gt;Selanjutnya kita lihat tabulasi silang dari data yang sudah kita &lt;code&gt;import&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;attach&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mydata&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;tabulasi_silang&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;table&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;skrining&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;gold.std&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;tabulasi_silang&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;##          gold.std
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## skrining  negatif positif
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;##   negatif      25      46
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;##   positif      36      93
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Gunakan fungsi &lt;code&gt;sensitivity&lt;/code&gt; Untuk mendapatkan Nilai Sensitivitas:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;sensitivity&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tabulasi_silang&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## [1] 0.4098361
@@ -218,6 +294,106 @@ Sedangkan alat skrining yang mendapatkan hasil spesifisitas tinggi menunjukkan b
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
 &lt;p&gt;Copyright 2023-present &lt;a href=&#34;https://dwicaksono.netlify.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dimas BC Wicaksono&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>http://localhost:4321/slides/revealjs-test/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/slides/revealjs-test/</guid>
+      <description>&lt;section data-transition=&#34;slide&#34;&gt;
+    The train goes on …
+&lt;/section&gt;
+&lt;section data-transition=&#34;slide&#34;&gt;
+    and on …
+&lt;/section&gt;
+&lt;section data-transition=&#34;slide-in fade-out&#34;&gt;
+    and stops.
+&lt;/section&gt;
+&lt;section data-transition=&#34;fade-in slide-out&#34;&gt;
+    (Passengers entering and leaving)
+&lt;/section&gt;
+&lt;section data-transition=&#34;slide&#34;&gt;
+    And it starts again.
+&lt;/section&gt;
+&lt;section data-auto-animate&gt;
+  &lt;h1&gt;Implicit&lt;/h1&gt;
+&lt;/section&gt;
+&lt;section data-auto-animate&gt;
+  &lt;h1&gt;Implicit&lt;/h1&gt;
+  &lt;h1&gt;Animation&lt;/h1&gt;
+&lt;/section&gt;
+&lt;section data-auto-animate style=&#34;text-align: left;&#34;&gt;
+&lt;ul&gt;
+  &lt;li&gt;First&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section data-auto-animate style=&#34;text-align: left;&#34;&gt;
+&lt;ul&gt;
+  &lt;li&gt;First&lt;/li&gt;
+  &lt;li&gt;Second&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section data-auto-animate style=&#34;text-align: left;&#34;&gt;
+&lt;ul&gt;
+  &lt;li&gt;First&lt;/li&gt;
+  &lt;li&gt;Second&lt;/li&gt;
+  &lt;li&gt;Third&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>http://localhost:4321/slides/sensitivitas-spesifisitas/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/slides/sensitivitas-spesifisitas/</guid>
+      <description>&lt;h1 id=&#34;sensitivitas-dan-spesifisitas&#34;&gt;Sensitivitas dan Spesifisitas&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;#&#34;&gt;Validitas dan Realibilitas Instrumen&lt;/a&gt; | &lt;a href=&#34;#&#34;&gt;Dimas BC Wicaksono&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;section style=&#34;text-align: left;&#34;&gt;
+&lt;h2 id=&#34;outlines&#34;&gt;Outlines&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#pendahuluan&#34;&gt;Pendahuluan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sensitivitas&#34;&gt;Uji Sensitivitas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#spesifisitas&#34;&gt;Uji Spesifisitas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#studi-kasus&#34;&gt;Studi Kasus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#kesimpulan&#34;&gt;Kesimpulan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;pendahuluan&#34;&gt;Pendahuluan&lt;/h1&gt;
+&lt;hr&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Pada saat Pandemi Covid-19, kita diberikan alat &lt;em&gt;skrining&lt;/em&gt; yang sangat terjangkau yaitu &lt;em&gt;swab test&lt;/em&gt;.
+&lt;/span&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Apakah hasil &lt;em&gt;swab test&lt;/em&gt; dapat menjamin bahwa kita sedang terpapar covid atau tidak?
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Alat &lt;em&gt;skrining&lt;/em&gt; tidak dapat menjamin hasil yang sangat akurat.
+&lt;/span&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Biasanya akan ada pemeriksaan lanjut untuk mengkonfirmasi apakah seseorang terpapar covid atau tidak.
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;sensitivitas&#34;&gt;Uji Sensitivitas&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Ability to ruling out a disease&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;spesifisitas&#34;&gt;Uji Spesifisitas&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Ability to ruling in a disease&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;studi-kasus&#34;&gt;Studi Kasus&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;kesimpulan&#34;&gt;Kesimpulan&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;terima-kasih&#34;&gt;Terima Kasih&lt;/h1&gt;
 </description>
     </item>
     
@@ -626,7 +802,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-914273658&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-836124975&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -636,7 +812,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-914273658&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-836124975&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1411,10 +1587,10 @@ perundang-undangan.&lt;/li&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Syarat Ketentuan Pengguna Aplikasi SatuSehat&#34; srcset=&#34;
-               /slides/etika-keamanan-privasi-data-sik/images/pemberitahuan-privasi-satusehat-app_hub1a786eda5b43191abccb9e395d4e356_172948_c2ac0bdea264c370c59d46f46c445a01.webp 400w,
-               /slides/etika-keamanan-privasi-data-sik/images/pemberitahuan-privasi-satusehat-app_hub1a786eda5b43191abccb9e395d4e356_172948_6ca8d74ae7d095bb320a770018508376.webp 760w,
+               /slides/etika-keamanan-privasi-data-sik/images/pemberitahuan-privasi-satusehat-app_hub1a786eda5b43191abccb9e395d4e356_172948_3aa216a5258f515a75d94308a7ba864e.webp 400w,
+               /slides/etika-keamanan-privasi-data-sik/images/pemberitahuan-privasi-satusehat-app_hub1a786eda5b43191abccb9e395d4e356_172948_8513c12bfd14271e258762e03e60239d.webp 760w,
                /slides/etika-keamanan-privasi-data-sik/images/pemberitahuan-privasi-satusehat-app_hub1a786eda5b43191abccb9e395d4e356_172948_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;http://localhost:4321/slides/etika-keamanan-privasi-data-sik/images/pemberitahuan-privasi-satusehat-app_hub1a786eda5b43191abccb9e395d4e356_172948_c2ac0bdea264c370c59d46f46c445a01.webp&#34;
+               src=&#34;http://localhost:4321/slides/etika-keamanan-privasi-data-sik/images/pemberitahuan-privasi-satusehat-app_hub1a786eda5b43191abccb9e395d4e356_172948_3aa216a5258f515a75d94308a7ba864e.webp&#34;
                width=&#34;696&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
