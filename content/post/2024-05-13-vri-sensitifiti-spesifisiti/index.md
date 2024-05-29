@@ -127,7 +127,7 @@ Tidak semua alat memiliki proses evaluasi alat seperti *thermogun*, sebagian ala
 
 [Sensitivitas](#) adalah nilai proporsi antara orang yang terdeteksi sakit ([**_true positives_**](#)) dibandingkan dengan seluruh orang yang benar-benar sakit ([**_true positives_** + **_false negatives_**](#)). Andaikan kita melakukan pengujian pada Alat A ke 10 orang yang sedang sakit. Jika ternyata hasil skrining menunjukkan bahwa 8 dari 10 orang terdeteksi sakit, maka sensitivitas Alat A adalah 8/10 atau 80%.
 
-Sedangkan [Spesifisitas]($) adalah proporsi antara orang yang tidak terdeteksi sakit ([**_true negatives_**](#)) dibandingkan dengan seluruh orang yang benar-benar tidak sakit ([**_false positives_** + **_true negatives_**](#)). Andaikan kita melakukan skrining dengan Alat B kepada 10 orang yang tidak sakit. Jika hasil skrining menunjukkan bahwa terdapat 9 orang yang tidak sakit, maka hasil spesifisiti adalah 9/10 atau 90%..
+Sedangkan [Spesifisitas]($) adalah proporsi antara orang yang tidak terdeteksi sakit ([**_true negatives_**](#)) dibandingkan dengan seluruh orang yang benar-benar tidak sakit ([**_false positives_** + **_true negatives_**](#)). Andaikan kita melakukan skrining dengan Alat B kepada 10 orang yang tidak sakit. Jika hasil skrining menunjukkan bahwa terdapat 9 orang yang tidak sakit, maka hasil spesifisitas adalah 9/10 atau 90%..
 
 <div class="figure">
 <img src="https://thecompletemedic.com/images/core/research-diagnostic-table_original.png" />
